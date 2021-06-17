@@ -1,0 +1,4 @@
+# Responsible for summoning the correct amount of zombies
+execute as @e[type=armor_stand,tag=RE_Zombie_Horde_Marker] at @s run summon zombie ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,PersistenceRequired:1b,CanPickUpLoot:0b,IsBaby:0b,Tags:["RE_Zombie_Horde"],CustomName:'{"text":"Horde Zombie"}',ArmorItems:[{},{},{},{id:"minecraft:beacon",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.follow_range,Base:60},{Name:zombie.spawn_reinforcements,Base:0}]}
+scoreboard players remove to_spawn zh 1
+execute if score to_spawn zh matches 1.. run function re:modules/zombie-horde/summon

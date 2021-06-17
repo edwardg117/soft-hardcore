@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "DE#",
+        "DDD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:bat_spawn_egg",
+        "count": 1
+    },
+    "group": "respawn"
+}

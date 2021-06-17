@@ -1,0 +1,1 @@
+give @p totem_of_undying{display:{Name:'{"text":"Respawn Token","color":"green","bold":true,"underlined":true}',Lore:['{"text":"Allows instant respawning an bypasses the respawn queue"}']},CustomModelData:123456,respawn_token:1b,Enchantments:[{}]} 3

@@ -1,0 +1,5 @@
+Magic attacks
+1. Explosion creeper with 5 radius
+2. Exploding meteors
+3. Falling anvils
+4. Ring of fire (anyone iside burns)

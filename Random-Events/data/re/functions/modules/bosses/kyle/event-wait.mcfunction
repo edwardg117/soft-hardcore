@@ -1,0 +1,1 @@
+# Should wait for players to approach boss before running any more scripts
