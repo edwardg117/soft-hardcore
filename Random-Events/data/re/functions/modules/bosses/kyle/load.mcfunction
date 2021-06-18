@@ -5,8 +5,10 @@ scoreboard objectives add re_kyle dummy "Boss Kyle vars"
 # Set vars
 # Number of respawn tokens to give participating players
 execute unless score token_reward re_kyle matches 1.. run scoreboard players set token_reward re_kyle 10
-# Number of attacks per special attack
-execute unless score num_magic re_kyle matches 1.. run scoreboard players set num_magic re_kyle 10
+# Number of meteors to summon for the meteor attack
+execute unless score num_meteor re_kyle matches 1.. run scoreboard players set num_meteor re_kyle 10
+# Time fire attack lasts in seconds
+execute unless score time_fire_attack re_kyle matches 1.. run scoreboard players set time_fire_attack re_kyle 10
 # Min time between special attacks (sec)
 execute unless score min_magic re_kyle matches 1.. run scoreboard players set min_magic re_kyle 10
 # Max time between special attacks

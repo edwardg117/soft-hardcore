@@ -1,0 +1,2 @@
+execute at @e[tag=RE_Kyle,limit=1] run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 fire[age=15] replace minecraft:air
+execute if score fire_time re_kyle matches 1.. run schedule function re:modules/bosses/kyle/abilities/fire-shield/place-fire 1t replace
