@@ -1,6 +1,7 @@
 # Loads the Kyle custom boss event
 # Add phantom score objectives
 scoreboard objectives add re_kyle dummy "Boss Kyle vars"
+scoreboard objectives add re_kyle_player trigger "isParticipating"
 
 # Set vars
 # Number of respawn tokens to give participating players
@@ -13,6 +14,10 @@ execute unless score time_fire_attack re_kyle matches 1.. run scoreboard players
 execute unless score min_magic re_kyle matches 1.. run scoreboard players set min_magic re_kyle 10
 # Max time between special attacks
 execute unless score max_magic re_kyle matches 1.. run scoreboard players set max_magic re_kyle 30
+# Respawn tokens to award participants
+execute unless score token_reward re_kyle matches 1.. run scoreboard players set token_reward re_kyle 10
+# Wait time to join event in seconds
+execute unless score start_time re_kyle matches 1.. run scoreboard players set start_time re_kyle 120
 
 # Finish
 # Put command block
