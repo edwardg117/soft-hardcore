@@ -1,9 +1,10 @@
 # This script counts down until the event starts, allowing players to opt-in
 scoreboard players enable @a re_kyle_player
-tellraw @a[tag=!RE_Kyle_seen_join_message] ["",{"text":"Boss Battle: ","color":"red"},{"text":"Kyle","color":"gold"},{"text":"\n"},{"text":"Kyle has run out of walls to put holes in and someone told him you stole his energy drinks!","color":"red"},{"text":"\n"},{"text":"[Click here to join the battle]","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger re_kyle_player set 1"}}]
+bossbar set re:kyle_start_time players @a
+tellraw @a[tag=!RE_Kyle_seen_join_message] ["",{"text":"Boss Battle: ","color":"red"},{"text":"Kyle","color":"gold"},{"text":"\n"},{"text":"Kyle is aggressive and possesses limited combat magic knowledge.\nThis battle is highly destructive so it takes place at a random location in the world. You will be teleported home after the battle ends. Winning will grant all players ","color":"red"},{"score":{"name":"token_reward","objective":"re_kyle"},"color":"gold"},{"text":" respawn tokens.\nThis battle is opt-in, once started you cannot join.","color":"red"},{"text":"\n"},{"text":"[Join]","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger re_kyle_player set 1"},"hoverEvent":{"action":"show_text","contents":"Join the fight! You will not be able to respawn if you run out of tokens."}},{"text":" "},{"text":"[Leave]","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger re_kyle_player set 0"},"hoverEvent":{"action":"show_text","contents":"Leave the fight. You cannot leave once the battle starts."}}]
 tag @a add RE_Kyle_seen_join_message
-title @a[tag=RE_Kyle_participating] actionbar ["",{"text":"Event starting in ","color":"yellow"},{"score":{"name":"time_to_start","objective":"re_kyle"},"color":"gold"},{"text":"s","color":"yellow"}]
+title @a[scores={re_kyle_player=1}] actionbar ["",{"text":"Event starting in ","color":"yellow"},{"score":{"name":"time_to_start","objective":"re_kyle"},"color":"gold"},{"text":"s","color":"yellow"}]
 execute store result bossbar re:kyle_start_time value run scoreboard players get time_to_start re_kyle
 scoreboard players remove time_to_start re_kyle 1
-execute if score time_to_start re_kyle matches 1.. run schedule function re:modules/bosses/kyle/event-wait 1s replace
-execute if score time_to_start re_kyle matches ..0 run say event start here
+execute if score time_to_start re_kyle matches 0.. run schedule function re:modules/bosses/kyle/event-wait 1s replace
+execute if score time_to_start re_kyle matches ..-1 run function re:modules/bosses/kyle/spawn-saver/start

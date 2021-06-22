@@ -2,6 +2,8 @@
 # Add phantom score objectives
 scoreboard objectives add re_kyle dummy "Boss Kyle vars"
 scoreboard objectives add re_kyle_player trigger "isParticipating"
+scoreboard objectives add re_kyle_spsv dummy "Respawn saver helper"
+scoreboard objectives add re_kyle_vlch trigger "Vote Location Change"
 
 # Set vars
 # Number of respawn tokens to give participating players

@@ -1,4 +1,10 @@
 # Starts the event
+# Temp reset
+bossbar remove re:kyle_health
+bossbar remove re:kyle_start_time
+schedule clear re:modules/bosses/kyle/event-wait
+kill @e[tag=re_kyle_save_stand]
+
 # Add bossbars
 bossbar add re:kyle_health "Kyle"
 bossbar add re:kyle_start_time "Boss Battle: Kyle"
@@ -15,10 +21,13 @@ execute store result bossbar re:kyle_start_time value run scoreboard players get
 scoreboard players operation time_to_start re_kyle = start_time re_kyle
 
 tag @a[tag=RE_Kyle_seen_join_message] remove RE_Kyle_seen_join_message
-
+scoreboard players set @a[scores={re_kyle_player=1}] re_kyle_player 0
 # TODO Summon Kyle
 
 # TODO Move Kyle
 
 # TODO Start event wait loop, as in waiting for players to approach the boss
 
+function re:modules/bosses/kyle/event-wait
+
+#/kill @e[tag=re_kyle_pos]
