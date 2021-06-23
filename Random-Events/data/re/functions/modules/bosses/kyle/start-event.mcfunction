@@ -9,9 +9,9 @@ kill @e[tag=re_kyle_save_stand]
 bossbar add re:kyle_health "Kyle"
 bossbar add re:kyle_start_time "Boss Battle: Kyle"
 
-bossbar set re:kyle max 500
-bossbar set re:kyle style notched_20
-bossbar set re:kyle color red
+bossbar set re:kyle_health max 500
+bossbar set re:kyle_health style notched_20
+bossbar set re:kyle_health color red
 
 bossbar set re:kyle_start_time color yellow
 bossbar set re:kyle_start_time style notched_10
