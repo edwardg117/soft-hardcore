@@ -1,0 +1,19 @@
+Kyle abilites/stages
+Stage 0: Waiting for event to start
+Nothing
+Stage 1: 400-500 health 
+No abilities
+Stage 2: 300-400 health
++ Meteor ability
+Stage 3: 200-300 health
+- Meteor ability
++ Fire ability
+Stage 4: 100-200 health
+- Meteor ability
+- Fire ability
++ Explodey healing
+Stage 5: 0-100 health
+- Meteor ability
+- Fire ability
+- Explodey healing
++ Given axe as primary weapon

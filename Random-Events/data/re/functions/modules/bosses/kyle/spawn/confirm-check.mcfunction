@@ -1,5 +1,4 @@
 # Checks to see if the players said the arena location is valid for a fight
-# TODO check to see if 50%+ of players decide the arena sucks
 # Get total players
 execute store result score player_count re_kyle if entity @a[scores={re_kyle_player=1}]
 execute store result score vote_count re_kyle if entity @a[scores={re_kyle_vlch=1}]
@@ -24,7 +23,7 @@ execute store result bossbar re:kyle_start_time value run scoreboard players get
 execute if score vote_count re_kyle matches 1 run function re:modules/bosses/kyle/spawn/start
 
 
-execute if score vote_count re_kyle matches 0 if score arena_delay re_kyle matches 0 run say event will start here
+execute if score vote_count re_kyle matches 0 if score arena_delay re_kyle matches 0 run function re:modules/bosses/kyle/main/start
 
 
 execute if score arena_delay re_kyle matches 1.. run schedule function re:modules/bosses/kyle/spawn/confirm-check 1s replace
