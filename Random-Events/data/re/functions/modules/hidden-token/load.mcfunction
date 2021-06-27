@@ -1,6 +1,6 @@
 # Loads the hidden instant respawn token module
 # config obj
-scoreboard objectives add rhs "Random Hidden Token Vars"
+scoreboard objectives add rhs dummy "Random Hidden Token Vars"
 
 # Default settings
 # Number of totems to scatter

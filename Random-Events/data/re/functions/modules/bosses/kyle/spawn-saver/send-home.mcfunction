@@ -15,8 +15,9 @@ execute as @e[tag=Kyle_Bed_Finder,limit=1] run function re:modules/bosses/kyle/s
 
 #execute unless entity @s[scores={SpawnX=0,SpawnY=0,SpawnZ=0}] as @s run 
 # If player has no bed
-execute if entity @s[scores={SpawnX=0,SpawnY=0,SpawnZ=0}] run execute at @e[type=armor_stand,tag=height_finder] run tp @s ~ ~ ~
+execute if entity @s[scores={re_kyle_spawnX=0,re_kyle_spawnY=0,re_kyle_spawnZ=0}] run execute at @e[type=armor_stand,tag=height_finder] run tp @s ~ ~ ~
 
 execute at @s run spawnpoint @s ~ ~ ~
 kill @e[tag=Kyle_Bed_Finder]
 #execute store result storage minecraft:re Kyle.Spawn[0] double 1 run scoreboard players get @s re_kyle_spawnX
+tag @s remove kyle_moving

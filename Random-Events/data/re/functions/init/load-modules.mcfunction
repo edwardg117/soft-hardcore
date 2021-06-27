@@ -10,5 +10,6 @@ function re:modules/respawn-all-dead/load
 function re:modules/hidden-token/load
 function re:modules/quarrel/load
 function re:modules/lightning/load
+function re:modules/bosses/kyle/load
 
 tp @e[type=armor_stand,tag=RE_Function_Starter] 1.0 0 0
