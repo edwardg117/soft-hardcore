@@ -7,6 +7,7 @@ gamerule commandBlockOutput false
 gamerule keepInventory true
 
 setworldspawn 0 0 0
+forceload add -1 -1 1 1
 
 # What day is it?
 scoreboard objectives add Time dummy

@@ -11,6 +11,6 @@ scoreboard players set @a[scores={re_kyle_jdie=1}] re_kyle_jdie 0
 
 execute unless entity @e[tag=RE_Kyle] run function re:modules/bosses/kyle/main/win
 
-execute unless entity @a[scores={re_kyle_player=1,isDead=0,respawns=1..}] run function re:modules/bosses/kyle/main/lose
+execute unless entity @a[scores={re_kyle_player=1,respawns=1..}] unless entity @a[scores={re_kyle_player=1,isDead=0}] run function re:modules/bosses/kyle/main/lose
 
 execute if score isRunning re_kyle matches 1 run schedule function re:modules/bosses/kyle/main/loop 1t replace

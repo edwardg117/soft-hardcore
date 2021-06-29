@@ -2,6 +2,7 @@
     "values":
     [
         "shc:main/day-detector",
+        "shc:main/init-new-players",
         "shc:main/death/death-detector",
         "shc:main/respawn/checker",
         "shc:main/items/find-players"
