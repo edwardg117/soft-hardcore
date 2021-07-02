@@ -22,11 +22,6 @@ scoreboard players operation time_to_start re_kyle = start_time re_kyle
 
 tag @a[tag=RE_Kyle_seen_join_message] remove RE_Kyle_seen_join_message
 scoreboard players set @a[scores={re_kyle_player=1}] re_kyle_player 0
-# TODO Summon Kyle
-
-# TODO Move Kyle
-
-# TODO Start event wait loop, as in waiting for players to approach the boss
 
 function re:modules/bosses/kyle/event-wait
 

@@ -23,3 +23,6 @@ function re:modules/bosses/kyle/main/stage-tracker/stage-1
 # Bossbar swap
 bossbar set re:kyle_start_time players
 bossbar set re:kyle_health players @a[scores={re_kyle_player=1}]
+
+title @a[scores={re_kyle_player=1}] subtitle {"text":" ","color":"dark_red"}
+title @a[scores={re_kyle_player=1}] title {"text":"Fight!","bold":true,"color":"red"}

@@ -9,4 +9,7 @@ gamemode survival @s
 scoreboard players set @s isDead 0
 scoreboard players set @s deathPos 0
 
-# TODO Partcle effect or sound?
+# Partcle effect and sound
+execute at @e[type=armor_stand,tag=height_finder] run particle minecraft:portal ~ ~1 ~ 0 0 0 5 100 force @a
+execute at @e[type=armor_stand,tag=height_finder] run particle minecraft:reverse_portal ~ ~1 ~ 0 0 0 1 100 force @a
+execute at @e[type=armor_stand,tag=height_finder] run playsound block.beacon.activate ambient @a[distance=..10] ~ ~ ~ 10 0.9 1.0

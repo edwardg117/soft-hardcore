@@ -1,5 +1,5 @@
 #/execute as @e[type=minecraft:armor_stand,distance=..3] if score edwardg random = @s random run say test
-# TODO Sends players to their beds after the battle ends, also re-sets spawn to their beds
+# Sends players to their beds after the battle ends, also re-sets spawn to their beds
 tag @s add kyle_moving
 summon armor_stand 0 0 0 {NoGravity:1b,Tags:["Kyle_Bed_Finder"]}
 # Have to use this silly method to make a list in data

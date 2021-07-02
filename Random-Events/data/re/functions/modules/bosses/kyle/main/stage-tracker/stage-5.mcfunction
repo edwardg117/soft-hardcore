@@ -2,4 +2,4 @@
 item replace entity @e[limit=1,tag=RE_Kyle] weapon.mainhand with iron_axe{display:{Name:'{"text":"Kyle\'s Axe","color":"red","bold":true,"underlined":true}',Lore:['{"text":"The axe appears to have been"}','{"text":"fashioned from a barbell and a"}','{"text":"weight. It\'s heavy and coated in"}','{"text":"whey."}']},RepairCost:50,Damage:0.8-0.9,AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.25,Operation:1,UUID:[I;-1582200581,1026901042,-2092071632,1784494190],Slot:"mainhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:1.60,Operation:1,UUID:[I;690002160,-1928314799,-1794694112,-679100400],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-3,Operation:0,UUID:[I;-346414900,2027111107,-1391243501,-177785369],Slot:"mainhand"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:17,Operation:0,UUID:[I;-984879072,607012180,-1819291367,246953192],Slot:"mainhand"}]} 1
 
 
-title @a actionbar {"text":"Stage 5"}
+title @a[scores={re_kyle_player=1}] actionbar {"text":"Stage 5"}
