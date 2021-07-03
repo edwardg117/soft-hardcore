@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="about:blank" version="1.17" generateList="false" autoConnect="false" revision="2" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17%2Bbuild.13&amp;loader=0.11.6">fabric</Import>
+		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
+			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17_HD_U_G9_pre24.jar</URL>
+			<Size>13591</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d77be093bfb5f9322018dc261e395925</MD5>
+			<Meta>
+				<description>Optifine is incompatible with Lithuim, Phosphor and Sodium. CHOOSE OPTIFINE OR THOSE THREE. Optifine provides more control over rendering and allows shaders.</description>
+				<version>HD_U_G9 pre24</version>
+				<authors>optifine</authors>
+			</Meta>
+		</Module>
+		<Module name="MiniHUD" id="minihud" depends="malilib" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3345/644/minihud-fabric-1.17.0-0.19.0-dev.20210609.185508.jar</URL>
+			<Size>233911</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d0bdef40c2c88f860f0a8fc23a105a3b</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Configurable &quot;mini-F3&quot; info lines, and various overlay renderers</description>
+				<version>0.19.0-dev.20210609.185508</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3343/940/itemscroller-fabric-1.17.0-0.15.0-dev.20210608.211652.jar</URL>
+			<Size>119698</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0165e6cf41ddd054d32dde474ee9b145</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots</description>
+				<version>0.15.0-dev.20210608.211652</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3358/619/fabric-api-0.36.0+1.17.jar</URL>
+			<Size>937892</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>919cf187e3b5963d74c140203ad9a65c</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.36.0+1.17</version>
+				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3365/444/Xaeros_Minimap_21.12.2_Fabric_1.17.jar</URL>
+			<Size>803915</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>fa76ecf1412766e165f45a36e61fadf7</MD5>
+			<Meta>
+				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game. It is also the first rotating square minimap for Minecraft.</description>
+				<version>21.12.2</version>
+				<authors>xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3365/443/XaerosWorldMap_1.14.4_Fabric_1.17.jar</URL>
+			<Size>455494</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>aa51ad6e69fce1d553423895791c5bcf</MD5>
+			<Meta>
+				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
+				<version>1.14.4</version>
+				<authors>xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3348/711/modmenu-2.0.2.jar</URL>
+			<Size>243816</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7fbb5ee3e6bd804969348a9327d95e08</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a mod menu to view the list of mods you have installed.</description>
+				<version>2.0.2</version>
+				<authors>Prospector, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Phosphor" id="phosphor" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3294/303/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar</URL>
+			<Size>91335</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>c20213b0f2b9e7769d7cdcc922960f9c</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Incompatible with Optifine. Phosphor is a free and open-source optimization mod for Minecraft which improves the performance of the lighting engine, resulting in significantly reduced world generation times and improved server tick rates. You can help feed me and support development on Patreon, gaining some special perks in the process! Any amount of support helps a ton. https://www.patreon.com/jellysquid</description>
+				<version>0.7.2+build.12</version>
+				<authors>JellySquid, PhiPro</authors>
+			</Meta>
+		</Module>
+		<Module name="Litematica" id="litematica" depends="malilib" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3353/497/litematica-fabric-1.17.0-0.0.0-dev.20210616.033538.jar</URL>
+			<Size>830303</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>69304bc0ace02f6f23174ee14509e524</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A modern schematic mod for LiteLoader, Rift, Fabric etc.</description>
+				<version>0.0.0-dev.20210616.033538</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="MaLiLib" id="malilib" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3343/936/malilib-fabric-1.17.0-0.10.0-dev.22+beta.1.jar</URL>
+			<Size>477603</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>8eacdb953b3d44e85cdc39a4d381409b</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A library mod required by masa&apos;s client-side mods</description>
+				<version>0.10.0-dev.22+beta.1</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Tweakeroo" id="tweakeroo" depends="malilib" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3351/747/tweakeroo-fabric-1.17.0-0.10.0-dev.20210614.173711.jar</URL>
+			<Size>246965</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>ecf90541b0094b06eda8f1a282186835</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Adds a bunch of configurable client-side tweaks</description>
+				<version>0.10.0-dev.20210614.173711</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3362/965/voicechat-1.17-1.2.3.jar</URL>
+			<Size>4049370</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>84fe63c9657ecb267c9d85ee6310b64d</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>This mod adds a proximity voice chat to your Minecraft server. You can choose between push to talk (PTT) or voice activation.</description>
+				<version>1.17-1.2.3</version>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3358/016/appleskin-fabric-mc1.17-2.0.0.jar</URL>
+			<Size>29865</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>048b7a1f136afbdbaceb20771d639079</MD5>
+			<Meta>
+				<license>Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>2.0.0</version>
+				<authors>squeek502</authors>
+			</Meta>
+		</Module>
+		<Module name="chatplus" id="chatplus" depends="" side="SERVER">
+			<URL priority="0">https://edge.forgecdn.net/files/3342/834/chatplus-1.17-2.1.2.jar</URL>
+			<Size>199357</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fe6dd5c291717084f197b0f262735960</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adding bonus features to Minecraft&apos;s chat</description>
+				<version>2.1.2</version>
+				<authors>Flytre</authors>
+			</Meta>
+		</Module>
+		<Module name="Lithium" id="lithium" depends="" side="BOTH">
+			<URL priority="0">https://edge.forgecdn.net/files/3359/899/lithium-fabric-mc1.17-0.7.2.jar</URL>
+			<Size>349418</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a2e966bfe3173327c3874236a23fa6e5</MD5>
+			<Meta>
+				<description>Incompatible with Optifine. Lithium is a general-purpose optimization mod for Minecraft which works to improve a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior. It works on both the client and server, and can be installed on servers without requiring clients to also have the mod. With the mod installed, you can see on average a 45% improvement to server tick times, resulting in a much leaner game.</description>
+				<version>0.7.2</version>
+				<authors>JellySquid, PhiPro</authors>
+			</Meta>
+		</Module>
+		<Module name="OptiFabric" id="optifabric" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3358/986/optifabric-1.11.9.jar</URL>
+			<Size>362640</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>f5711bff237637a4620f9f25ffed4f6f</MD5>
+			<Meta>
+				<description>OptiFabric a mod that can be used to run OptiFine on the Fabric Mod Loader. It does this by taking the official OptiFine mod and making it compatible with the Fabric Mod Loader at runtime.</description>
+				<version>1.11.9</version>
+				<authors>Chocohead</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
