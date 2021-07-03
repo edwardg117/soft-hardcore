@@ -168,7 +168,7 @@
 				<authors>squeek502</authors>
 			</Meta>
 		</Module>
-		<Module name="chatplus" id="chatplus" depends="" side="SERVER">
+		<Module name="chatplus" id="chatplus" depends="flytre_lib" side="SERVER">
 			<URL priority="0">https://edge.forgecdn.net/files/3342/834/chatplus-1.17-2.1.2.jar</URL>
 			<Size>199357</Size>
 			<Required>true</Required>
@@ -203,6 +203,19 @@
 				<description>OptiFabric a mod that can be used to run OptiFine on the Fabric Mod Loader. It does this by taking the official OptiFine mod and making it compatible with the Fabric Mod Loader at runtime.</description>
 				<version>1.11.9</version>
 				<authors>Chocohead</authors>
+			</Meta>
+		</Module>
+		<Module name="FlytreLib" id="flytre_lib" depends="" side="SERVER">
+			<URL priority="0">https://edge.forgecdn.net/files/3363/268/flytre_lib-1.17-0.2.18.jar</URL>
+			<Size>144412</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>904abb14375762fe8e66f1164f987bee</MD5>
+			<Meta>
+				<license>Custom License</license>
+				<description>Common Code for Flytre mods</description>
+				<version>0.2.18</version>
+				<authors>Flytre</authors>
 			</Meta>
 		</Module>
 	</Server>
