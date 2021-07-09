@@ -19,6 +19,8 @@ scoreboard objectives add justDied deathCount
 scoreboard objectives add deathPos dummy "Death Queue"
 # How many respawns a player has before they have to wait in the death queue
 scoreboard objectives add respawns dummy "Respawns"
+# A trigger to see more info after each day
+scoreboard objectives add stats_daily trigger "Wants to see Stats"
 
 scoreboard objectives add vars dummy "Variables"
 scoreboard objectives add Stats dummy "Statistics"
