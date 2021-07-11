@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="about:blank" version="1.17" generateList="false" autoConnect="false" revision="2" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17%2Bbuild.13&amp;loader=0.11.6">fabric</Import>
+	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="about:blank" version="1.17.1" generateList="false" autoConnect="false" revision="3" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.10&amp;loader=0.11.6">fabric</Import>
 		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17_HD_U_G9_pre24.jar</URL>
+			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre26.jar</URL>
 			<Size>13591</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d77be093bfb5f9322018dc261e395925</MD5>
+			<MD5>269080dbdf6c6a8cc4c8f04375cba399</MD5>
 			<Meta>
 				<description>Optifine is incompatible with Lithuim, Phosphor and Sodium. CHOOSE OPTIFINE OR THOSE THREE. Optifine provides more control over rendering and allows shaders.</description>
-				<version>HD_U_G9 pre24</version>
+				<version>HD_U_G9 pre26</version>
 				<authors>optifine</authors>
 			</Meta>
 		</Module>
 		<Module name="MiniHUD" id="minihud" depends="malilib" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3345/644/minihud-fabric-1.17.0-0.19.0-dev.20210609.185508.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3379/923/minihud-fabric-1.17.1-0.19.0-dev.20210707.150016.jar</URL>
 			<Size>233911</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d0bdef40c2c88f860f0a8fc23a105a3b</MD5>
+			<MD5>ec601f0bd7123c42f0eeeb566415c32b</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Configurable &quot;mini-F3&quot; info lines, and various overlay renderers</description>
-				<version>0.19.0-dev.20210609.185508</version>
+				<version>0.19.0-dev.20210707.150016</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3343/940/itemscroller-fabric-1.17.0-0.15.0-dev.20210608.211652.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3379/264/itemscroller-fabric-1.17.1-0.15.0-dev.20210707.005506.jar</URL>
 			<Size>119698</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0165e6cf41ddd054d32dde474ee9b145</MD5>
+			<MD5>8ebc1652160b33352f574ccb3188f9a9</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots</description>
-				<version>0.15.0-dev.20210608.211652</version>
+				<version>0.15.0-dev.20210707.005506</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3358/619/fabric-api-0.36.0+1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3377/591/fabric-api-0.36.1+1.17.jar</URL>
 			<Size>937892</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>919cf187e3b5963d74c140203ad9a65c</MD5>
+			<MD5>9c00ce37c3c7ab590d793f155c1c48df</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.36.0+1.17</version>
+				<version>0.36.1+1.17</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3365/444/Xaeros_Minimap_21.12.2_Fabric_1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3379/204/Xaeros_Minimap_21.12.5.1_Fabric_1.17.1.jar</URL>
 			<Size>803915</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>fa76ecf1412766e165f45a36e61fadf7</MD5>
+			<MD5>c0119431e6f2a12e1430695efd3ccab1</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game. It is also the first rotating square minimap for Minecraft.</description>
-				<version>21.12.2</version>
+				<version>21.12.5.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3365/443/XaerosWorldMap_1.14.4_Fabric_1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3379/205/XaerosWorldMap_1.14.5.2_Fabric_1.17.1.jar</URL>
 			<Size>455494</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>aa51ad6e69fce1d553423895791c5bcf</MD5>
+			<MD5>95cfbf8bcb2bd54c9e3454c228238e49</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
-				<version>1.14.4</version>
+				<version>1.14.5.2</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
@@ -94,7 +94,7 @@
 			<URL priority="0">https://edge.forgecdn.net/files/3294/303/phosphor-fabric-mc1.16.3-0.7.2+build.12.jar</URL>
 			<Size>91335</Size>
 			<Required>false</Required>
-			<ModType>Regular</ModType>
+			<ModType>Removal</ModType>
 			<MD5>c20213b0f2b9e7769d7cdcc922960f9c</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
@@ -104,54 +104,54 @@
 			</Meta>
 		</Module>
 		<Module name="Litematica" id="litematica" depends="malilib" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3353/497/litematica-fabric-1.17.0-0.0.0-dev.20210616.033538.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3379/278/litematica-fabric-1.17.1-0.0.0-dev.20210707.011234.jar</URL>
 			<Size>830303</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>69304bc0ace02f6f23174ee14509e524</MD5>
+			<MD5>8e828ea9df94f9d159d4e98302be8173</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A modern schematic mod for LiteLoader, Rift, Fabric etc.</description>
-				<version>0.0.0-dev.20210616.033538</version>
+				<version>0.0.0-dev.20210707.011234</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="MaLiLib" id="malilib" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3343/936/malilib-fabric-1.17.0-0.10.0-dev.22+beta.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3379/260/malilib-fabric-1.17.1-0.10.0-dev.23.jar</URL>
 			<Size>477603</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>8eacdb953b3d44e85cdc39a4d381409b</MD5>
+			<MD5>b54c704639dac6ee083ebdab743e3992</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A library mod required by masa&apos;s client-side mods</description>
-				<version>0.10.0-dev.22+beta.1</version>
+				<version>0.10.0-dev.23</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Tweakeroo" id="tweakeroo" depends="malilib" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3351/747/tweakeroo-fabric-1.17.0-0.10.0-dev.20210614.173711.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3383/609/tweakeroo-fabric-1.17.1-0.10.0-dev.20210710.155746.jar</URL>
 			<Size>246965</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>ecf90541b0094b06eda8f1a282186835</MD5>
+			<MD5>062715ddd78a5ee37ed01b41049b657d</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Adds a bunch of configurable client-side tweaks</description>
-				<version>0.10.0-dev.20210614.173711</version>
+				<version>0.10.0-dev.20210710.155746</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3362/965/voicechat-1.17-1.2.3.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3383/410/voicechat-fabric-1.17.1-1.0.2.jar</URL>
 			<Size>4049370</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>84fe63c9657ecb267c9d85ee6310b64d</MD5>
+			<MD5>3dcec6afbfb469caebcf5faa1eacd068</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>This mod adds a proximity voice chat to your Minecraft server. You can choose between push to talk (PTT) or voice activation.</description>
-				<version>1.17-1.2.3</version>
+				<version>1.17.1-1.0.2</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -169,53 +169,79 @@
 			</Meta>
 		</Module>
 		<Module name="chatplus" id="chatplus" depends="flytre_lib" side="SERVER">
-			<URL priority="0">https://edge.forgecdn.net/files/3342/834/chatplus-1.17-2.1.2.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3384/146/chatplus-1.17.1-2.1.3.jar</URL>
 			<Size>199357</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fe6dd5c291717084f197b0f262735960</MD5>
+			<MD5>1d0885e60f49b1168bcea982bca000a0</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adding bonus features to Minecraft&apos;s chat</description>
-				<version>2.1.2</version>
+				<version>2.1.3</version>
 				<authors>Flytre</authors>
 			</Meta>
 		</Module>
 		<Module name="Lithium" id="lithium" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3359/899/lithium-fabric-mc1.17-0.7.2.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3380/166/lithium-fabric-mc1.17.1-0.7.3.jar</URL>
 			<Size>349418</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>a2e966bfe3173327c3874236a23fa6e5</MD5>
+			<MD5>5a14d732e8d5111e184e26807c1c8eb3</MD5>
 			<Meta>
 				<description>Incompatible with Optifine. Lithium is a general-purpose optimization mod for Minecraft which works to improve a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior. It works on both the client and server, and can be installed on servers without requiring clients to also have the mod. With the mod installed, you can see on average a 45% improvement to server tick times, resulting in a much leaner game.</description>
-				<version>0.7.2</version>
+				<version>0.7.3</version>
 				<authors>JellySquid, PhiPro</authors>
 			</Meta>
 		</Module>
 		<Module name="OptiFabric" id="optifabric" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3358/986/optifabric-1.11.9.jar</URL>
+			<URL priority="0">https://dl.dropbox.com/s/5xmxyn2g42c7yhh/optifabric.jar</URL>
 			<Size>362640</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f5711bff237637a4620f9f25ffed4f6f</MD5>
+			<MD5>f67196033946e4239d1cce4b8cfec846</MD5>
 			<Meta>
 				<description>OptiFabric a mod that can be used to run OptiFine on the Fabric Mod Loader. It does this by taking the official OptiFine mod and making it compatible with the Fabric Mod Loader at runtime.</description>
-				<version>1.11.9</version>
+				<version>1.11.9 - Modified</version>
 				<authors>Chocohead</authors>
 			</Meta>
 		</Module>
 		<Module name="FlytreLib" id="flytre_lib" depends="" side="SERVER">
-			<URL priority="0">https://edge.forgecdn.net/files/3363/268/flytre_lib-1.17-0.2.18.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3384/189/flytre_lib-1.17-0.2.20.jar</URL>
 			<Size>144412</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>904abb14375762fe8e66f1164f987bee</MD5>
+			<MD5>ae1297f59a6fbad7de0cc2dff39248b0</MD5>
 			<Meta>
 				<license>Custom License</license>
 				<description>Common Code for Flytre mods</description>
-				<version>0.2.18</version>
+				<version>0.2.20</version>
 				<authors>Flytre</authors>
+			</Meta>
+		</Module>
+		<Module name="Starlight" id="starlight" depends="" side="SERVER">
+			<URL priority="0">https://github.com/Tuinity/Starlight/releases/download/1.0.0-RC3/starlight-1.0.0-RC3+fabric.1.17.x.jar</URL>
+			<Size>114059</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6b6cd1aa6e4400ef8fe61c1cfce52f20</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Rewrites the light engine to fix lighting performance and lighting errors</description>
+				<version>1.0.0-RC3+fabric.2b7d7ae</version>
+				<authors>Spottedleaf</authors>
+			</Meta>
+		</Module>
+		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
+			<URL priority="0">https://github.com/ishlandbukkit/C2ME-fabric/releases/download/0.2.0%2Balpha.1/c2me-fabric-mc1.17.1-pre1-0.2.0+alpha.1.0-all.jar</URL>
+			<Size>1079278</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>06b445620ed15edd2f87d57dab31dfa8</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
+				<version>0.2.0+alpha.1.0</version>
+				<authors>ishlandbukkit, ishland</authors>
 			</Meta>
 		</Module>
 	</Server>

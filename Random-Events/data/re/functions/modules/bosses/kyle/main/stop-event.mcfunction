@@ -11,6 +11,7 @@ scoreboard players set isRunning re_kyle 0
 
 # teleport players home
 execute as @a[scores={re_kyle_player=1}] run function re:modules/bosses/kyle/spawn-saver/send-home
+kill @e[tag=Kyle_Bed_Finder]
 
 bossbar remove re:kyle_health
 bossbar remove re:kyle_start_time
