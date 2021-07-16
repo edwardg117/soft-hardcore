@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="about:blank" version="1.17.1" generateList="false" autoConnect="false" revision="3" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="about:blank" version="1.17.1" generateList="false" autoConnect="false" revision="4" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.10&amp;loader=0.11.6">fabric</Import>
 		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre26.jar</URL>
+			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre29.jar</URL>
 			<Size>13591</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>269080dbdf6c6a8cc4c8f04375cba399</MD5>
+			<MD5>e4b4492b6054becd97f1a7fc011cc9dc</MD5>
 			<Meta>
 				<description>Optifine is incompatible with Lithuim, Phosphor and Sodium. CHOOSE OPTIFINE OR THOSE THREE. Optifine provides more control over rendering and allows shaders.</description>
-				<version>HD_U_G9 pre26</version>
+				<version>HD_U_G9 pre29</version>
 				<authors>optifine</authors>
 			</Meta>
 		</Module>
@@ -54,26 +54,26 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3379/204/Xaeros_Minimap_21.12.5.1_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3387/119/Xaeros_Minimap_21.13.0_Fabric_1.17.1.jar</URL>
 			<Size>803915</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>c0119431e6f2a12e1430695efd3ccab1</MD5>
+			<MD5>926e5bad3eb65ad751fe4f37af934729</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game. It is also the first rotating square minimap for Minecraft.</description>
-				<version>21.12.5.1</version>
+				<version>21.13.0</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3379/205/XaerosWorldMap_1.14.5.2_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3387/107/XaerosWorldMap_1.14.6.1_Fabric_1.17.1.jar</URL>
 			<Size>455494</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>95cfbf8bcb2bd54c9e3454c228238e49</MD5>
+			<MD5>03b8e3b603b958ae55c7150eb22f3cbc</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
-				<version>1.14.5.2</version>
+				<version>1.14.6.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
@@ -194,14 +194,14 @@
 			</Meta>
 		</Module>
 		<Module name="OptiFabric" id="optifabric" depends="" side="CLIENT">
-			<URL priority="0">https://dl.dropbox.com/s/5xmxyn2g42c7yhh/optifabric.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3386/848/optifabric-1.11.18.jar</URL>
 			<Size>362640</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f67196033946e4239d1cce4b8cfec846</MD5>
+			<MD5>640b87fb57a5c9e77c309e4402f012d2</MD5>
 			<Meta>
 				<description>OptiFabric a mod that can be used to run OptiFine on the Fabric Mod Loader. It does this by taking the official OptiFine mod and making it compatible with the Fabric Mod Loader at runtime.</description>
-				<version>1.11.9 - Modified</version>
+				<version>1.11.18</version>
 				<authors>Chocohead</authors>
 			</Meta>
 		</Module>
@@ -242,6 +242,19 @@
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
 				<version>0.2.0+alpha.1.0</version>
 				<authors>ishlandbukkit, ishland</authors>
+			</Meta>
+		</Module>
+		<Module name="Bobby (unofficial)" id="bobby" depends="" side="CLIENT">
+			<URL priority="0">https://cdn.discordapp.com/attachments/447965999728164874/865434201624805416/bobby-2.0.3.jar</URL>
+			<Size>766435</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d11c114b25bacea26e9f836351bc959f</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>Allows for render distances greater than the server&apos;s view-distance setting. Temp patch until the mod author updates the mod</description>
+				<version>2.0.3</version>
+				<authors>johni0702</authors>
 			</Meta>
 		</Module>
 	</Server>
