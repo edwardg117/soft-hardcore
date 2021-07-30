@@ -274,7 +274,7 @@
 			<URL priority="0">https://edge.forgecdn.net/files/3404/785/iris-mc1.17-1.1.1.jar</URL>
 			<Size>1821445</Size>
 			<Required>false</Required>
-			<ModType inRoot="true">Extract</ModType>
+			<ModType>Regular</ModType>
 			<MD5>35b5ef5c1580e24c4e21d00bc5b87bb4</MD5>
 			<Meta>
 				<description>DO NOT INSTALL WITH SODIUM! A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders</description>
