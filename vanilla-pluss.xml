@@ -3,14 +3,14 @@
 	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/changelog.md" version="1.17.1" generateList="false" autoConnect="false" revision="5" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.24&amp;loader=0.11.6">fabric</Import>
 		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre29.jar</URL>
+			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre32.jar</URL>
 			<Size>13591</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>e4b4492b6054becd97f1a7fc011cc9dc</MD5>
+			<MD5>63143eeca6f0f237039ac8d97707ecc4</MD5>
 			<Meta>
 				<description>Optifine is incompatible with Lithuim, Phosphor and Sodium. CHOOSE OPTIFINE OR THOSE THREE. Optifine provides more control over rendering and allows shaders.</description>
-				<version>HD_U_G9 pre29</version>
+				<version>HD_U_G9 pre32</version>
 				<authors>optifine</authors>
 			</Meta>
 		</Module>
@@ -41,52 +41,52 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3386/484/fabric-api-0.37.0+1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3398/557/fabric-api-0.37.1+1.17.jar</URL>
 			<Size>937892</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4a892e0016cd6f06ee9f53edc24ba829</MD5>
+			<MD5>d05fb78fb3c7fe9a95840197a8b2d4bc</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.37.0+1.17</version>
+				<version>0.37.1+1.17</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3396/275/Xaeros_Minimap_21.14.0_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3405/508/Xaeros_Minimap_21.14.1_Fabric_1.17.1.jar</URL>
 			<Size>803915</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>2422841295b949db37a13bae549ee507</MD5>
+			<MD5>12caa38c6e3fdcbd62ccb24d7c1f898d</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game. It is also the first rotating square minimap for Minecraft.</description>
-				<version>21.14.0</version>
+				<version>21.14.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3396/263/XaerosWorldMap_1.15.0.1_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3405/520/XaerosWorldMap_1.16.0_Fabric_1.17.1.jar</URL>
 			<Size>455494</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>dc09327d8a6fd839bda66714e27106ac</MD5>
+			<MD5>818d12902b4e802f5b161ed02e655c94</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
-				<version>1.15.0.1</version>
+				<version>1.16.0</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3394/496/modmenu-2.0.3.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3400/185/modmenu-2.0.4.jar</URL>
 			<Size>243816</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6083d9e6b12f46b16179b408c3a617eb</MD5>
+			<MD5>87596d039c987cbb263afb8bec8117b2</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds a mod menu to view the list of mods you have installed.</description>
-				<version>2.0.3</version>
+				<version>2.0.4</version>
 				<authors>Prospector, TerraformersMC</authors>
 			</Meta>
 		</Module>
@@ -143,15 +143,15 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3395/841/voicechat-fabric-1.17.1-1.1.0.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3402/826/voicechat-fabric-1.17.1-1.1.4.jar</URL>
 			<Size>4049370</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>41221a150ca435de1a654c1498e7dee6</MD5>
+			<MD5>6265d5030b6c4ad2f4a5f53b0f9eb211</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>This mod adds a proximity voice chat to your Minecraft server. You can choose between push to talk (PTT) or voice activation.</description>
-				<version>1.17.1-1.1.0</version>
+				<version>1.17.1-1.1.4</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -232,15 +232,15 @@
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="0">https://github.com/ishlandbukkit/C2ME-fabric/releases/download/0.2.0%2Balpha.2/c2me-fabric-mc1.17.1-0.2.0+alpha.2.0-all.jar</URL>
+			<URL priority="0">https://github.com/ishlandbukkit/C2ME-fabric/releases/download/0.2.0%2Balpha.3/c2me-fabric-mc1.17.1-0.2.0+alpha.3.0-all.jar</URL>
 			<Size>1079278</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>16ab4a21653f36e3d38ebdf59d056718</MD5>
+			<MD5>108cd858782ee67a4271e1ed205a6e69</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.2.0</version>
+				<version>0.2.0+alpha.3.0</version>
 				<authors>ishlandbukkit, ishland</authors>
 			</Meta>
 		</Module>
@@ -271,14 +271,14 @@
 			</Meta>
 		</Module>
 		<Module name="Irs Shaders" id="irsshaders" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/IrisShaders/Iris-Installer-Files/releases/download/v1.1.0/Iris-Sodium-1.17.1.zip</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3404/785/iris-mc1.17-1.1.1.jar</URL>
 			<Size>1821445</Size>
 			<Required>false</Required>
 			<ModType inRoot="true">Extract</ModType>
-			<MD5>d07d7e92a041fcb4bac4ac37a98388bf</MD5>
+			<MD5>35b5ef5c1580e24c4e21d00bc5b87bb4</MD5>
 			<Meta>
 				<description>DO NOT INSTALL WITH SODIUM! A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders</description>
-				<version>1.1.0</version>
+				<version>1.1.1</version>
 				<authors>coderbot, IMS21</authors>
 			</Meta>
 		</Module>
@@ -289,9 +289,9 @@
 			<ModType>Regular</ModType>
 			<MD5>203593b48e151d755f4d24566ad27465</MD5>
 			<Meta>
+				<author>logicalgeekboy</author>
 				<description>Optifine alternative. This is a simple Minecraft Fabic mod that adds a configurable zoom key.</description>
 				<version>0.0.11</version>
-				<author>logicalgeekboy</author>
 			</Meta>
 		</Module>
 		<Module name="LambDynamicLights" id="lambdynlights" depends="" side="CLIENT">
@@ -318,6 +318,19 @@
 				<description>Dynamically adjusts FPS so minecraft doesn&apos;t hog resources in background.</description>
 				<version>2.0.4</version>
 				<authors>juliand665</authors>
+			</Meta>
+		</Module>
+		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
+			<URL priority="0">https://edge.forgecdn.net/files/3399/746/physics-mod-2.3.5-mc-1.17.1.jar</URL>
+			<Size>7860884</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>f8a5c141567de749657cfcbd8b41312d</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
+				<version>2.3.5</version>
+				<authors>Haubna</authors>
 			</Meta>
 		</Module>
 	</Server>

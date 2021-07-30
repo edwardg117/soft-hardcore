@@ -1,4 +1,17 @@
 # Changelog
+
+#V5.01
+Added
+- Physics Mod (re-added)
+Updated 
+- Optifine -> G9 pre32
+- Xaero's Minimap and Worldmap
+- Fabric API
+- Mod Menu
+- Simple Voice Chat
+- C2ME
+- Iris Shaders
+
 ## V5.00
 Figured out I could use a text document here :D
 
