@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/changelog.md" version="1.17.1" generateList="false" autoConnect="false" revision="5" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.24&amp;loader=0.11.6">fabric</Import>
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.37&amp;loader=0.11.6">fabric</Import>
 		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre32.jar</URL>
+			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre33.jar</URL>
 			<Size>13591</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>63143eeca6f0f237039ac8d97707ecc4</MD5>
+			<MD5>5aff15cc350beb5728df32292e52e235</MD5>
 			<Meta>
 				<description>Optifine is incompatible with Lithuim, Phosphor and Sodium. CHOOSE OPTIFINE OR THOSE THREE. Optifine provides more control over rendering and allows shaders.</description>
-				<version>HD_U_G9 pre32</version>
+				<version>HD_U_G9 pre33</version>
 				<authors>optifine</authors>
 			</Meta>
 		</Module>
@@ -41,15 +41,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3398/557/fabric-api-0.37.1+1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3419/363/fabric-api-0.37.2+1.17.jar</URL>
 			<Size>937892</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d05fb78fb3c7fe9a95840197a8b2d4bc</MD5>
+			<MD5>dc074e47a412ef984378fb301d08e823</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.37.1+1.17</version>
+				<version>0.37.2+1.17</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -194,14 +194,14 @@
 			</Meta>
 		</Module>
 		<Module name="OptiFabric" id="optifabric" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3386/848/optifabric-1.11.18.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3422/922/optifabric-1.11.20.jar</URL>
 			<Size>362640</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>640b87fb57a5c9e77c309e4402f012d2</MD5>
+			<MD5>b67ea83febc8f06240e15641836d942e</MD5>
 			<Meta>
 				<description>OptiFabric a mod that can be used to run OptiFine on the Fabric Mod Loader. It does this by taking the official OptiFine mod and making it compatible with the Fabric Mod Loader at runtime.</description>
-				<version>1.11.18</version>
+				<version>1.11.20</version>
 				<authors>Chocohead</authors>
 			</Meta>
 		</Module>
@@ -295,41 +295,41 @@
 			</Meta>
 		</Module>
 		<Module name="LambDynamicLights" id="lambdynlights" depends="" side="CLIENT">
-			<URL priority="0">https://cdn.modrinth.com/data/yBW8D80W/versions/2.0.1+1.17/lambdynamiclights-2.0.1+1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3409/038/lambdynamiclights-2.0.2+1.17.jar</URL>
 			<Size>533698</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>4e97605d6d2bbe85f29e941a4af752d1</MD5>
+			<MD5>36310f6881094c364dcbd48f475f8b44</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds dynamic lights to the game.</description>
-				<version>2.0.1+1.17</version>
+				<version>2.0.2+1.17</version>
 				<authors>LambdAurora</authors>
 			</Meta>
 		</Module>
 		<Module name="Dynamic FPS" id="dynamicfps" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3356/224/dynamic-fps-2.0.4.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3419/561/dynamic-fps-2.0.5.jar</URL>
 			<Size>1276645</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>54402e0e01a65f3bdcc6c1de793b471e</MD5>
+			<MD5>ba485e4e4b1445bcaee81f8563cd3865</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Dynamically adjusts FPS so minecraft doesn&apos;t hog resources in background.</description>
-				<version>2.0.4</version>
+				<version>2.0.5</version>
 				<authors>juliand665</authors>
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3399/746/physics-mod-2.3.5-mc-1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3422/128/physics-mod-2.4.10-mc-1.17.1.jar</URL>
 			<Size>7860884</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f8a5c141567de749657cfcbd8b41312d</MD5>
+			<MD5>de1627606889103af8f495fb5b00e501</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.3.5</version>
+				<version>2.4.10</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>

@@ -1,5 +1,15 @@
 # Changelog
 
+#V5.02
+Updated
+- Fabric
+- Fabric API
+- Optifine
+- Optifabric
+- LambDynamicLights
+- Dynamic FPS
+- Physics Mod
+
 #V5.01
 Added
 - Physics Mod (re-added)
