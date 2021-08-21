@@ -3,14 +3,14 @@
 	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/changelog.md" version="1.17.1" generateList="false" autoConnect="false" revision="5" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.37&amp;loader=0.11.6">fabric</Import>
 		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre33.jar</URL>
+			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre34.jar</URL>
 			<Size>13591</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>5aff15cc350beb5728df32292e52e235</MD5>
+			<MD5>630e94bc6a613b54129ae35d760be9df</MD5>
 			<Meta>
 				<description>Optifine is incompatible with Lithuim, Phosphor and Sodium. CHOOSE OPTIFINE OR THOSE THREE. Optifine provides more control over rendering and allows shaders.</description>
-				<version>HD_U_G9 pre33</version>
+				<version>HD_U_G9 pre34</version>
 				<authors>optifine</authors>
 			</Meta>
 		</Module>
@@ -54,26 +54,26 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3405/508/Xaeros_Minimap_21.14.1_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3423/290/Xaeros_Minimap_21.15.1_Fabric_1.17.1.jar</URL>
 			<Size>803915</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>12caa38c6e3fdcbd62ccb24d7c1f898d</MD5>
+			<MD5>4c2bb32580250b927ef3a881ffb287e1</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game. It is also the first rotating square minimap for Minecraft.</description>
-				<version>21.14.1</version>
+				<version>21.15.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3405/520/XaerosWorldMap_1.16.0_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3423/299/XaerosWorldMap_1.16.1_Fabric_1.17.1.jar</URL>
 			<Size>455494</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>818d12902b4e802f5b161ed02e655c94</MD5>
+			<MD5>c1a25746409ff738091b4f9bcf08b094</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
-				<version>1.16.0</version>
+				<version>1.16.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
@@ -321,15 +321,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3422/128/physics-mod-2.4.10-mc-1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3430/196/physics-mod-2.5.3-mc-1.17.1.jar</URL>
 			<Size>7860884</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>de1627606889103af8f495fb5b00e501</MD5>
+			<MD5>125ce614af0bf0cce9ff95e191e83051</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.4.10</version>
+				<version>2.5.3</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
