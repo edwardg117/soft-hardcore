@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/changelog.md" version="1.17.1" generateList="false" autoConnect="false" revision="5" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.37&amp;loader=0.11.6">fabric</Import>
+	<Server id="VanillaPluss" abstract="false" name="Vanilla+" newsUrl="https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.17.1" generateList="false" autoConnect="false" revision="5" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.17.1%2Bbuild.46&amp;loader=0.11.6">fabric</Import>
 		<Module name="Optifine" id="optifine" depends="optifabric" side="CLIENT">
 			<URL priority="0">https://optifine.net/adloadx?f=preview_OptiFine_1.17.1_HD_U_G9_pre34.jar</URL>
 			<Size>13591</Size>
@@ -41,15 +41,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3419/363/fabric-api-0.37.2+1.17.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3439/042/fabric-api-0.39.2+1.17.jar</URL>
 			<Size>937892</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>dc074e47a412ef984378fb301d08e823</MD5>
+			<MD5>4a46024eebd5d32db23684be3e7f33ed</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.37.2+1.17</version>
+				<version>0.39.2+1.17</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -78,15 +78,15 @@
 			</Meta>
 		</Module>
 		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3400/185/modmenu-2.0.4.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3431/313/modmenu-2.0.5.jar</URL>
 			<Size>243816</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>87596d039c987cbb263afb8bec8117b2</MD5>
+			<MD5>8d57961369cff906d5c9c645d06a7d3b</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds a mod menu to view the list of mods you have installed.</description>
-				<version>2.0.4</version>
+				<version>2.0.5</version>
 				<authors>Prospector, TerraformersMC</authors>
 			</Meta>
 		</Module>
@@ -143,15 +143,15 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3402/826/voicechat-fabric-1.17.1-1.1.4.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3424/549/voicechat-fabric-1.17.1-1.1.7.jar</URL>
 			<Size>4049370</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>6265d5030b6c4ad2f4a5f53b0f9eb211</MD5>
+			<MD5>23e55765fc5817af9b2f9828b47bace3</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>This mod adds a proximity voice chat to your Minecraft server. You can choose between push to talk (PTT) or voice activation.</description>
-				<version>1.17.1-1.1.4</version>
+				<version>1.17.1-1.1.7</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -182,14 +182,14 @@
 			</Meta>
 		</Module>
 		<Module name="Lithium" id="lithium" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/3380/166/lithium-fabric-mc1.17.1-0.7.3.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3438/799/lithium-fabric-mc1.17.1-0.7.4.jar</URL>
 			<Size>349418</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>5a14d732e8d5111e184e26807c1c8eb3</MD5>
+			<MD5>5e9a9c1dfaa4e10403a8c658639e5cca</MD5>
 			<Meta>
 				<description>Incompatible with Optifine. Lithium is a general-purpose optimization mod for Minecraft which works to improve a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior. It works on both the client and server, and can be installed on servers without requiring clients to also have the mod. With the mod installed, you can see on average a 45% improvement to server tick times, resulting in a much leaner game.</description>
-				<version>0.7.3</version>
+				<version>0.7.4</version>
 				<authors>JellySquid, PhiPro</authors>
 			</Meta>
 		</Module>
@@ -321,15 +321,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3430/196/physics-mod-2.5.3-mc-1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3437/944/physics-mod-2.5.5-mc-1.17.1.jar</URL>
 			<Size>7860884</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>125ce614af0bf0cce9ff95e191e83051</MD5>
+			<MD5>76570f284617307b474a4e28d1b92e8b</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.5.3</version>
+				<version>2.5.5</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
