@@ -1,20 +1,22 @@
 # Changelog
-##V5.04
+Fix for respawning has been uploaded as well as a change so that the server won't try events while no one is online.
+## V5.04
 Found a nice way to have update and make this page look nice
 Updated
 - Physics Mod
 - Fabric API
 - Fabric
 - Lithium
+- Simple Voice Chat
 - Mod menu
 
-##V5.03
+## V5.03
 Updated
 - Optifine
 - Physics Mod
 - Xaero's Minimap and Worldmap
 
-##V5.02
+## V5.02
 Updated
 - Fabric
 - Fabric API
@@ -24,7 +26,7 @@ Updated
 - Dynamic FPS
 - Physics Mod
 
-##V5.01
+## V5.01
 Added
 - Physics Mod (re-added)
 Updated 
