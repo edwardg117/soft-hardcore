@@ -24,6 +24,8 @@ Updated
 - MaLiLib
 - Mod Menu
 - Simple Voice Chat
+- FlytreLib
+- C2ME
 - Iris Shaders
 
 
