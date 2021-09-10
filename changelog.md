@@ -1,7 +1,36 @@
 # Changelog
-Fix for respawning has been uploaded as well as a change so that the server won't try events while no one is online.
+## V5.05
+Added Replay Mod. Currently not compatible with Sodium/Iris, this should be solved when the patch gets updated.
+
+Physics Mod is now hosted on a new site I don't know how to download from, If you want to use it you're going to have to manually install it until I do https://minecraftphysicsmod.com/download
+
+Also got the 3D Skin mod. I'm just trying it out, not sure if I'll keep it but it promises compatanility with Sodium/Iris and Optifine
+
+Added
+- Replay Mod
+- Replay Mod Sodium patch
+- Skin Layers 3D
+
+Updated
+- Optifine (Finally has a full release)
+- Sodium
+- Appleskin
+- Xaero's Minimap
+- Xaero's Worldmap
+- Chat+
+- Fabric API
+- Fabric
+- Litematica
+- MaLiLib
+- Mod Menu
+- Simple Voice Chat
+- Iris Shaders
+
+
+
 ## V5.04
-Found a nice way to have update and make this page look nice
+Found a nice way to have update and make this page look nice. Fix for respawning has been uploaded as well as a change so that the server won't try events while no one is online.
+
 Updated
 - Physics Mod
 - Fabric API
