@@ -359,7 +359,7 @@
 				<authors>JellySquid</authors>
 			</Meta>
 		</Module>
-		<Module name="3d Skin Layers" id="skinlayers" depends="" side="BOTH">
+		<Module name="3d Skin Layers" id="skinlayers" depends="" side="CLIENT">
 			<URL priority="0">https://edge.forgecdn.net/files/3454/931/3dSkinLayers-Fabric-1.1.0.jar</URL>
 			<Size>379302</Size>
 			<Required>false</Required>
