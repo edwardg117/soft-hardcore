@@ -1,4 +1,11 @@
 # Changelog
+## V5.06
+This may be the final update for a while. I'm looking at moving to a fully modded expirence and updating the original modpack. This will take me some time to do so only super important updates will come here rather than weekly updates.
+
+updated
+- Physics Mod
+- Replay Mod Sodium Patch
+
 ## V5.05
 Added Replay Mod. Currently not compatible with Sodium/Iris, this should be solved when the patch gets updated.
 

@@ -321,15 +321,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3437/944/physics-mod-2.5.5-mc-1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3466/700/physics-mod-2.5.11-mc-1.17.1-fabric.jar</URL>
 			<Size>7860884</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>76570f284617307b474a4e28d1b92e8b</MD5>
+			<MD5>af9d960cc48e24b251d1ced5358496f6</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.5.5</version>
+				<version>2.5.11</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
@@ -347,15 +347,15 @@
 			</Meta>
 		</Module>
 		<Module name="Replay Mod Sodium Patch" id="replaysodium" depends="" side="CLIENT">
-			<URL priority="0">https://www.replaymod.com/download/sodium-fabric-mc1.17.1-0.3.0+IRIS2-rev.5eb1e8e.jar</URL>
+			<URL priority="0">https://www.replaymod.com/download/sodium-fabric-mc1.17.1-0.3.2+IRIS2-rev.ba4ff9b.jar</URL>
 			<Size>583000</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>9ae5d25ce1cd9f1883c55d9b83de65c7</MD5>
+			<MD5>5851c4f3cf4f93a958c7b99e76ce6df6</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
-				<version>0.3.0+IRIS2-rev.5eb1e8e</version>
+				<version>0.3.2+IRIS2-rev.5eb1e8e</version>
 				<authors>JellySquid</authors>
 			</Meta>
 		</Module>
