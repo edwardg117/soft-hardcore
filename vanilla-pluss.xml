@@ -54,14 +54,14 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3438/624/Xaeros_Minimap_21.16.0_Fabric_1.17.1.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3478/946/Xaeros_Minimap_21.17.2_Fabric_1.17.1.jar</URL>
 			<Size>803915</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>7a612dc89c558615344e304cdc959b41</MD5>
+			<MD5>16f6fd435d429a3ce4f9cd328e5ff841</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game. It is also the first rotating square minimap for Minecraft.</description>
-				<version>21.16.0</version>
+				<version>21.17.2</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
@@ -321,15 +321,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="0">https://edge.forgecdn.net/files/3466/700/physics-mod-2.5.11-mc-1.17.1-fabric.jar</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/3477/946/physics-mod-2.5.13-mc-1.17.1-fabric.jar</URL>
 			<Size>7860884</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>af9d960cc48e24b251d1ced5358496f6</MD5>
+			<MD5>2df424fd4b95127e8190609493557238</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.5.11</version>
+				<version>2.5.13</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>

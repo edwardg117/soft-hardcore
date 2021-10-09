@@ -1,4 +1,9 @@
 # Changelog
+## V5.07
+updated
+- Xaero's Minimap
+- Physics Mod
+
 ## V5.06
 This may be the final update for a while. I'm looking at moving to a fully modded expirence and updating the original modpack. This will take me some time to do so only super important updates will come here rather than weekly updates.
 
