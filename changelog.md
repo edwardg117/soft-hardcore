@@ -1,4 +1,28 @@
 # Changelog
+## V5.09
+Critical fabric update to patch Log4j vulnerability.
+
+Update immediately!
+
+## v5.08
+A quick note about the upcomming event: The goal is to kill the Ender Dragon but the potal must be opened by finsing 12 towers.
+Updated
+- Sodium
+- Appleskin
+- Xaero's Minimap
+- Xaero's Worldmap
+- Fabric API
+- Fabric
+- Lithium
+- Mod Menu
+- Optifabric
+- Optifine
+- Simple Voice Chat
+- Starlight
+- C2ME
+- Dynamic FPS
+- Skin Layers 3D
+
 ## V5.07
 updated
 - Xaero's Minimap
