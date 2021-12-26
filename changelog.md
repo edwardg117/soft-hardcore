@@ -1,4 +1,11 @@
 # Changelog
+## V6.00
+Updated to Minecraft 1.18.1. If you want to continue on 1.17.1 you must press update or the game won't start, I'm not sure why it will let you try because Fabric needs to be updated.
+
+No new mods at this time and listing every mod as being updated is silly, I also haven't updated any 1.17 mods and won't unless it's critical. 1.18.1 will be the supported version going forward.
+
+The Tower Hunt event will start soon, I just need time to do some more things to the datapack and finish the next 6Sad for new years.
+
 ## V5.09
 Critical fabric update to patch Log4j vulnerability.
 
