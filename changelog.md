@@ -1,4 +1,13 @@
 # Changelog
+## V6.01
+Small update.
+
+Updated
+- C2ME
+- Terralith
+- Xaero's Minimap
+- Xaero's World Map
+
 ## V6.00
 Updated to Minecraft 1.18.1. If you want to continue on 1.17.1 you must press update or the game won't start, I'm not sure why it will let you try because Fabric needs to be updated.
 

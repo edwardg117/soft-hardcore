@@ -402,15 +402,15 @@
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="1">https://ci.codemc.io/job/RelativityMC/job/C2ME-fabric/job/ver%252F1.18/lastSuccessfulBuild/artifact/build/libs/c2me-fabric-mc1.18.1-0.2.0+alpha.5.108-all.jar</URL>
-			<Size>1237562</Size>
+			<URL priority="1">https://ci.codemc.io/job/RelativityMC/job/C2ME-fabric/job/ver%252F1.18/lastSuccessfulBuild/artifact/build/libs/c2me-fabric-mc1.18.1-0.2.0+alpha.5.110-all.jar</URL>
+			<Size>1237831</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a0c2fec2281322fd5edee73ea95f82b2</MD5>
+			<MD5>53d2ae63f04fbd61965b5d7a2f40d472</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.5.108</version>
+				<version>0.2.0+alpha.5.110</version>
 				<authors>ishlandbukkit, ishland</authors>
 			</Meta>
 		</Module>
@@ -462,7 +462,7 @@
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Pregen chunks with fabric!</description>
-				<version>0.3.3</version>
+				<version>0.3.4</version>
 				<authors>SuperCoder79</authors>
 			</Meta>
 		</Module>
@@ -620,15 +620,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3580/185/physics-mod-2.6.1-mc-1.18-fabric.jar</URL>
-			<Size>11400431</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3582/999/physics-mod-2.6.3-mc-1.18-fabric.jar</URL>
+			<Size>11534678</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f3f67dfbae0693cc6e8a407665ad1b23</MD5>
+			<MD5>1e67644c8df072906abb90964742f4ff</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.6.1</version>
+				<version>2.6.3</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
@@ -724,14 +724,14 @@
 			</Meta>
 		</Module>
 		<Module name="Terralith" id="terralith" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3577/322/Terralith_v2.0.6_Fabric+Forge.jar</URL>
-			<Size>1512451</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3590/537/Terralith_v2.0.8_~_Fabric+Forge.jar</URL>
+			<Size>1614709</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d5b77aba735cf7930eff954d405c7d3d</MD5>
+			<MD5>aa65b7a4666753d60896d7b0bd64dd44</MD5>
 			<Meta>
 				<description>Terralith is a datapack (packaged as a mod for both Fabric and Forge) designed to fundamentally overhaul the overworld with new biomes and caves. It accomplishes this without adding any new blocks, making it fully compatible with vanilla clients</description>
-				<version>2.0.6</version>
+				<version>2.0.8</version>
 				<authors>Starmute</authors>
 			</Meta>
 		</Module>
@@ -749,11 +749,11 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3574/063/Xaeros_Minimap_21.22.6_Fabric_1.18.jar</URL>
-			<Size>1162809</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3582/979/Xaeros_Minimap_21.23.0_Fabric_1.18.jar</URL>
+			<Size>1165886</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>4cbcde0164b449a6ab798eae28f0e569</MD5>
+			<MD5>9f8571bf27edc3b013bed77d881a30f8</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game.</description>
 				<version>21.22.6</version>
@@ -761,11 +761,11 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3576/612/XaerosWorldMap_1.18.9_Fabric_1.18.jar</URL>
-			<Size>576945</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3582/991/XaerosWorldMap_1.19.0_Fabric_1.18.jar</URL>
+			<Size>578867</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>68f411747a782b4c9ea296b2f9bf2da2</MD5>
+			<MD5>1c9d318bb5e35a4536f14f328c105852</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
 				<version>1.18.9</version>
