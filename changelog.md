@@ -1,4 +1,16 @@
 # Changelog
+## V6.02
+Hopefully this update fixes chunks not rendering
+
+Updated
+- C2ME
+- Fabric API
+- Iris
+- Lithium
+- Pysics Mod
+- Simple Voice Chat
+- Terralith
+
 ## V6.01
 Small update.
 

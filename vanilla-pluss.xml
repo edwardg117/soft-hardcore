@@ -402,15 +402,15 @@
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="1">https://ci.codemc.io/job/RelativityMC/job/C2ME-fabric/job/ver%252F1.18/lastSuccessfulBuild/artifact/build/libs/c2me-fabric-mc1.18.1-0.2.0+alpha.5.110-all.jar</URL>
-			<Size>1237831</Size>
+			<URL priority="1">https://github.com/RelativityMC/C2ME-fabric/releases/download/0.2.0%2Balpha.6/c2me-fabric-mc1.18.1-0.2.0+alpha.6.1-all.jar</URL>
+			<Size>1239653</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>53d2ae63f04fbd61965b5d7a2f40d472</MD5>
+			<MD5>e7a273e785f826e5858a570065e1164a</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.5.110</version>
+				<version>0.2.0+alpha.6.1</version>
 				<authors>ishlandbukkit, ishland</authors>
 			</Meta>
 		</Module>
@@ -441,15 +441,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3577/046/fabric-api-0.45.0+1.18.jar</URL>
-			<Size>1144830</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3595/229/fabric-api-0.45.2+1.18.jar</URL>
+			<Size>1155945</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f23fd6e4b81bb02b532ad0aaa1af59c1</MD5>
+			<MD5>646498f49386b91516ed6228d68a674f</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.45.0+1.18</version>
+				<version>0.45.2+1.18</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -480,16 +480,16 @@
 			</Meta>
 		</Module>
 		<Module name="Iris" id="iris" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3558/900/iris-mc1.18.1-1.1.3.jar</URL>
-			<Size>1593730</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3596/182/iris-mc1.18.1-1.1.4.jar</URL>
+			<Size>1645576</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>fc7e13f373dd5a7b5c1cb24d20617d04</MD5>
+			<MD5>b208fa258d5e07eb28225cfba37eedca</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
-				<description>A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders</description>
-				<version>1.1.3</version>
-				<authors>coderbot</authors>
+				<description>A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs</description>
+				<version>1.1.4</version>
+				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
 			</Meta>
 		</Module>
 		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
@@ -532,15 +532,15 @@
 			</Meta>
 		</Module>
 		<Module name="Lithium" id="lithium" depends="" side="SERVER">
-			<URL priority="1">https://edge.forgecdn.net/files/3565/566/lithium-fabric-mc1.18.1-0.7.6.jar</URL>
-			<Size>387086</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3590/908/lithium-fabric-mc1.18.1-0.7.7.jar</URL>
+			<Size>391313</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>78db5a281defce0ccd4ef27b1be3fb58</MD5>
+			<MD5>c27f69d8a5a5091512233bf375b5f042</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.</description>
-				<version>0.7.6</version>
+				<version>0.7.7</version>
 				<authors>JellySquid, 2No2Name</authors>
 			</Meta>
 		</Module>
@@ -620,15 +620,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3582/999/physics-mod-2.6.3-mc-1.18-fabric.jar</URL>
-			<Size>11534678</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3590/855/physics-mod-2.6.4-mc-1.18-fabric.jar</URL>
+			<Size>11569825</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>1e67644c8df072906abb90964742f4ff</MD5>
+			<MD5>f47005953af6e64ca2cb0249f5326c01</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.6.3</version>
+				<version>2.6.4</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
@@ -672,15 +672,15 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3571/844/voicechat-fabric-1.18.1-2.1.28.jar</URL>
-			<Size>5084283</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3592/751/voicechat-fabric-1.18.1-2.2.0.jar</URL>
+			<Size>5084985</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>8d50b8badd28139dc6a7fdebdb4bbbef</MD5>
+			<MD5>2e629d3fd00d5f4a0f584c3438570a5e</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.18.1-2.1.28</version>
+				<version>1.18.1-2.2.0</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -724,14 +724,14 @@
 			</Meta>
 		</Module>
 		<Module name="Terralith" id="terralith" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3590/537/Terralith_v2.0.8_~_Fabric+Forge.jar</URL>
-			<Size>1614709</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3596/819/Terralith_v2.0.10_Fabric+Forge.jar</URL>
+			<Size>1577787</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>aa65b7a4666753d60896d7b0bd64dd44</MD5>
+			<MD5>0700022375caf8ad299a8fff715e3076</MD5>
 			<Meta>
 				<description>Terralith is a datapack (packaged as a mod for both Fabric and Forge) designed to fundamentally overhaul the overworld with new biomes and caves. It accomplishes this without adding any new blocks, making it fully compatible with vanilla clients</description>
-				<version>2.0.8</version>
+				<version>2.0.10</version>
 				<authors>Starmute</authors>
 			</Meta>
 		</Module>
