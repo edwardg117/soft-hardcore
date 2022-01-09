@@ -672,15 +672,15 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3592/751/voicechat-fabric-1.18.1-2.2.0.jar</URL>
-			<Size>5084985</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3598/200/voicechat-fabric-1.18.1-2.2.4.jar</URL>
+			<Size>5091607</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>2e629d3fd00d5f4a0f584c3438570a5e</MD5>
+			<MD5>442d0f97f45a72c907cd010bd2a3502b</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.18.1-2.2.0</version>
+				<version>1.18.1-2.2.4</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>

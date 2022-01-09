@@ -1,4 +1,7 @@
 # Changelog
+## V6.03
+Updated Voice Chat so that should work better
+
 ## V6.02
 Hopefully this update fixes chunks not rendering
 
