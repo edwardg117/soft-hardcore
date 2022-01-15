@@ -402,15 +402,15 @@
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="1">https://github.com/RelativityMC/C2ME-fabric/releases/download/0.2.0%2Balpha.6/c2me-fabric-mc1.18.1-0.2.0+alpha.6.1-all.jar</URL>
-			<Size>1239653</Size>
+			<URL priority="1">https://ci.codemc.io/job/RelativityMC/job/C2ME-fabric/job/ver%252F1.18/lastSuccessfulBuild/artifact/build/libs/c2me-fabric-mc1.18.1-0.2.0+alpha.6.2-all.jar</URL>
+			<Size>1239652</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e7a273e785f826e5858a570065e1164a</MD5>
+			<MD5>c42bec0de64bdc9a5f38caf9cb61244e</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.6.1</version>
+				<version>0.2.0+alpha.6.2</version>
 				<authors>ishlandbukkit, ishland</authors>
 			</Meta>
 		</Module>
@@ -441,15 +441,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3595/229/fabric-api-0.45.2+1.18.jar</URL>
-			<Size>1155945</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3605/891/fabric-api-0.46.0+1.18.jar</URL>
+			<Size>1176017</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>646498f49386b91516ed6228d68a674f</MD5>
+			<MD5>651da998672527a424ef1c595b9b4c61</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.45.2+1.18</version>
+				<version>0.46.0+1.18</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -479,16 +479,16 @@
 				<authors>Flytre</authors>
 			</Meta>
 		</Module>
-		<Module name="Iris" id="iris" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3596/182/iris-mc1.18.1-1.1.4.jar</URL>
-			<Size>1645576</Size>
+		<Module name="Iris" id="iris" depends="sodium" side="CLIENT">
+			<URL priority="1">https://edge.forgecdn.net/files/3605/379/iris-mc1.18.1-1.1.5.jar</URL>
+			<Size>1645887</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>b208fa258d5e07eb28225cfba37eedca</MD5>
+			<MD5>49802e857503e2975bd2e09f22c47481</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs</description>
-				<version>1.1.4</version>
+				<version>1.1.5</version>
 				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
 			</Meta>
 		</Module>
@@ -672,15 +672,15 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3598/200/voicechat-fabric-1.18.1-2.2.4.jar</URL>
-			<Size>5091607</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3604/376/voicechat-fabric-1.18.1-2.2.8.jar</URL>
+			<Size>5062499</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>442d0f97f45a72c907cd010bd2a3502b</MD5>
+			<MD5>5cc650aa07939940d8e6f978a095e968</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.18.1-2.2.4</version>
+				<version>1.18.1-2.2.8</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -698,15 +698,15 @@
 			</Meta>
 		</Module>
 		<Module name="Sodium" id="sodium" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3542/074/sodium-fabric-mc1.18-0.4.0-alpha5+build.9.jar</URL>
-			<Size>1311910</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3605/309/sodium-fabric-mc1.18.1-0.4.0-alpha6+build.14.jar</URL>
+			<Size>1315447</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>94f45dbaa6b93e7ae6f9454fdc3a6bb8</MD5>
+			<MD5>9a8c1252bdfa309c7732649cb5ff7656</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
-				<version>0.4.0-alpha5+build.9</version>
+				<version>0.4.0-alpha6+build.14</version>
 				<authors>JellySquid</authors>
 			</Meta>
 		</Module>
@@ -724,11 +724,11 @@
 			</Meta>
 		</Module>
 		<Module name="Terralith" id="terralith" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3596/819/Terralith_v2.0.10_Fabric+Forge.jar</URL>
-			<Size>1577787</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3606/078/Terralith_v2.0.12_Fabric+Forge.jar</URL>
+			<Size>1600688</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0700022375caf8ad299a8fff715e3076</MD5>
+			<MD5>5c9444da47d20f7facf2b6096e85a58a</MD5>
 			<Meta>
 				<description>Terralith is a datapack (packaged as a mod for both Fabric and Forge) designed to fundamentally overhaul the overworld with new biomes and caves. It accomplishes this without adding any new blocks, making it fully compatible with vanilla clients</description>
 				<version>2.0.10</version>
@@ -749,26 +749,26 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3582/979/Xaeros_Minimap_21.23.0_Fabric_1.18.jar</URL>
-			<Size>1165886</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3599/501/Xaeros_Minimap_21.23.1_Fabric_1.18.jar</URL>
+			<Size>1164866</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>9f8571bf27edc3b013bed77d881a30f8</MD5>
+			<MD5>e07078d59a4b2849cf9c17529621acaa</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game.</description>
-				<version>21.22.6</version>
+				<version>21.23.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3582/991/XaerosWorldMap_1.19.0_Fabric_1.18.jar</URL>
-			<Size>578867</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3599/516/XaerosWorldMap_1.19.1_Fabric_1.18.jar</URL>
+			<Size>579536</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>1c9d318bb5e35a4536f14f328c105852</MD5>
+			<MD5>9ef8d18b0426d9d418b5247def36ec72</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
-				<version>1.18.9</version>
+				<version>1.19.1</version>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>

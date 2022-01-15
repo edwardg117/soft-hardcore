@@ -1,4 +1,17 @@
 # Changelog
+## V6.04
+More updates, many forcus on performance
+
+Updated
+- C2ME
+- Fabric API
+- Iris
+- Simple Voice Chat
+- Sodium
+- Terralith
+- Xaero's Minimap
+- Xaero's World Map
+
 ## V6.03
 Updated Voice Chat so that should work better
 
