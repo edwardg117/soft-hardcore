@@ -1,4 +1,14 @@
 # Changelog
+## V6.05
+Final update before server goes live! (Hopefully)
+
+Updated
+- C2ME
+- Dynamic FPS
+- Fabric API
+- Iris
+- Simple Voice Chat
+
 ## V6.04
 More updates, many forcus on performance
 
