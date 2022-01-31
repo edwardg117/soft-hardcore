@@ -4,6 +4,7 @@ Some mod updates
 
 Updated
 - Appleskin
+- Litematica
 - MaLiLib
 - MiniHUD
 - Physics Mod

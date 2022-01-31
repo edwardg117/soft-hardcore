@@ -519,15 +519,15 @@
 			</Meta>
 		</Module>
 		<Module name="Litematica" id="litematica" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3580/242/litematica-fabric-1.18.0-0.9.0.jar</URL>
-			<Size>869117</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3619/934/litematica-fabric-1.18.1-0.10.1.jar</URL>
+			<Size>890428</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>aabbaf327b86448e87e556938002b480</MD5>
+			<MD5>74c98fb6d0f0389770ae2415ec7b1846</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A modern schematic mod for LiteLoader, Rift, Fabric etc.</description>
-				<version>0.9.0</version>
+				<version>0.10.1</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
