@@ -376,15 +376,15 @@
 	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.18" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.18.1" generateList="false" autoConnect="false" revision="6" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.18.1%2Bbuild.11&amp;loader=0.12.12">fabric</Import>
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3544/502/appleskin-fabric-mc1.18-2.2.0.jar</URL>
-			<Size>910309</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3626/708/appleskin-fabric-mc1.18.1-2.3.0.jar</URL>
+			<Size>910925</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>17af6dc75eae3f5117e40c4033923b9f</MD5>
+			<MD5>f7b0128c7a0d5ba7cee55ad51727143d</MD5>
 			<Meta>
 				<license>Unlicense</license>
 				<description>Adds various food-related HUD improvements</description>
-				<version>mc1.18-2.2.0</version>
+				<version>2.3.0+mc1.18.1</version>
 				<authors>squeek502</authors>
 			</Meta>
 		</Module>
@@ -557,28 +557,28 @@
 			</Meta>
 		</Module>
 		<Module name="MaLiLib" id="malilib" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3544/210/malilib-fabric-1.18.0-0.10.0-dev.26.jar</URL>
-			<Size>480507</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3630/909/malilib-fabric-1.18.1-0.11.6.jar</URL>
+			<Size>491312</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>32905c2e57c5016bc78a3884d6e1e39b</MD5>
+			<MD5>2e724b65973cfcd33f2650bd2227524a</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A library mod required by masa&apos;s client-side mods</description>
-				<version>0.10.0-dev.26</version>
+				<version>0.11.6</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="MiniHUD" id="minihud" depends="malilib" side="CLIENT">
-			<URL priority="1">https://masa.dy.fi/tmp/minecraft/mods/misc_test_versions/minihud-fabric-1.18.0-0.19.0-dev.20211204.230657.jar</URL>
-			<Size>252168</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3619/950/minihud-fabric-1.18.1-0.21.3.jar</URL>
+			<Size>314114</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>1f1f397269b7a4ce15a2a52c3c663fde</MD5>
+			<MD5>18da54be90d845732d41b28cf33847e3</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Configurable &quot;mini-F3&quot; info lines, and various overlay renderers</description>
-				<version>0.19.0-dev.20211204.230657</version>
+				<version>0.21.3</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
@@ -620,7 +620,7 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3590/855/physics-mod-2.6.4-mc-1.18-fabric.jar</URL>
+			<URL priority="1">https://edge.forgecdn.net/files/3620/855/physics-mod-2.6.6-mc-1.18-fabric.jar</URL>
 			<Size>11569825</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
@@ -672,15 +672,15 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3613/542/voicechat-fabric-1.18.1-2.2.10.jar</URL>
-			<Size>5062540</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3624/431/voicechat-fabric-1.18.1-2.2.13.jar</URL>
+			<Size>5063778</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>c352c64e734c71817c6d2d68aa305efa</MD5>
+			<MD5>322b5ab3c36a32215a2c54c4f4f90188</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.18.1-2.2.10</version>
+				<version>1.18.1-2.2.13</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -736,24 +736,24 @@
 			</Meta>
 		</Module>
 		<Module name="Tweakeroo" id="tweakeroo" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3579/871/tweakeroo-fabric-1.18.0-0.11.0.jar</URL>
-			<Size>258910</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3630/905/tweakeroo-fabric-1.18.1-0.12.2.jar</URL>
+			<Size>268049</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d3c4064c5c00c6f93168fa40e8aea75d</MD5>
+			<MD5>09d5a3d8482723df538e1ef093504a70</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Adds a bunch of configurable client-side tweaks</description>
-				<version>0.11.0</version>
+				<version>0.12.2</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerosminimap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3599/501/Xaeros_Minimap_21.23.1_Fabric_1.18.jar</URL>
-			<Size>1164866</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3630/504/Xaeros_Minimap_22.1.2_Fabric_1.18.jar</URL>
+			<Size>1170857</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>e07078d59a4b2849cf9c17529621acaa</MD5>
+			<MD5>77f1eadb36447d631fbb304d109fe895</MD5>
 			<Meta>
 				<description>Unlike many other minimap mods, Xaero&apos;s minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game.</description>
 				<version>21.23.1</version>
@@ -761,11 +761,11 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaerosworldmap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3599/516/XaerosWorldMap_1.19.1_Fabric_1.18.jar</URL>
-			<Size>579536</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3626/670/XaerosWorldMap_1.20.1_Fabric_1.18.jar</URL>
+			<Size>576065</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>9ef8d18b0426d9d418b5247def36ec72</MD5>
+			<MD5>72a8b4750b85c9077c8bf43fe0a5eb57</MD5>
 			<Meta>
 				<description>Xaero&apos;s World Map mod adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero&apos;s Minimap.</description>
 				<version>1.19.1</version>

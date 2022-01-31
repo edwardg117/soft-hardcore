@@ -1,4 +1,17 @@
 # Changelog
+## V6.06
+Some mod updates
+
+Updated
+- Appleskin
+- MaLiLib
+- MiniHUD
+- Physics Mod
+- Simple Voice Chat
+- Tweakeroo
+- Xaero's Minimap
+- Xaero's World Map
+
 ## V6.05
 Final update before server goes live! (Hopefully)
 
