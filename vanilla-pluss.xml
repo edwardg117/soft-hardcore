@@ -441,15 +441,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3609/610/fabric-api-0.46.1+1.18.jar</URL>
-			<Size>1176486</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3634/318/fabric-api-0.46.4+1.18.jar</URL>
+			<Size>1174956</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e3248e632338917207d983ee4d192834</MD5>
+			<MD5>de4088c11e9e5233a62650b17588486f</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.46.1+1.18</version>
+				<version>0.46.4+1.18</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -466,16 +466,16 @@
 				<authors>SuperCoder79</authors>
 			</Meta>
 		</Module>
-		<Module name="Flytre Lib" id="flytre_lib" depends="" side="SERVER">
-			<URL priority="1">https://edge.forgecdn.net/files/3576/358/flytre-lib-1.4.4.jar</URL>
-			<Size>535638</Size>
+		<Module name="FlytreLib" id="flytre_lib" depends="" side="SERVER">
+			<URL priority="1">https://edge.forgecdn.net/files/3630/413/flytre_lib-1.18.1-1.7.1-fabric.jar</URL>
+			<Size>548475</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>257800c37882ec8fdfe3123d15f05f6a</MD5>
+			<MD5>5d8ba7d647b9bb60f816029f2e57df3f</MD5>
 			<Meta>
-				<license>All Rights Reserved Unless Explicitly Stated Otherwise</license>
-				<description>Common Code for Flytre mods</description>
-				<version>1.4.4</version>
+				<license>ARR</license>
+				<description>Necessary Utilities &amp; Enhancements for Flytre&apos;s mods!</description>
+				<version>1.7.1</version>
 				<authors>Flytre</authors>
 			</Meta>
 		</Module>
@@ -493,11 +493,11 @@
 			</Meta>
 		</Module>
 		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3544/231/itemscroller-fabric-1.18.0-0.15.0.jar</URL>
-			<Size>115866</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3615/858/itemscroller-fabric-1.18.1-0.15.0.jar</URL>
+			<Size>115992</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>30fdf2bd0117c2756e517b6f2dbe85b3</MD5>
+			<MD5>147127dfade845a4afc0c73e2c7ba37b</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots</description>
@@ -620,15 +620,15 @@
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3620/855/physics-mod-2.6.6-mc-1.18-fabric.jar</URL>
-			<Size>11569825</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3633/786/physics-mod-2.6.7-mc-1.18-fabric.jar</URL>
+			<Size>11589640</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f47005953af6e64ca2cb0249f5326c01</MD5>
+			<MD5>099dd1bf40a816228435dddd75e8168c</MD5>
 			<Meta>
 				<license>CC0-1.0</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.6.4</version>
+				<version>2.6.7</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
@@ -672,28 +672,28 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/3624/431/voicechat-fabric-1.18.1-2.2.13.jar</URL>
-			<Size>5063778</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3630/305/voicechat-fabric-1.18.1-2.2.16.jar</URL>
+			<Size>5064845</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>322b5ab3c36a32215a2c54c4f4f90188</MD5>
+			<MD5>1392bd44cae5820d2394f9a1c7e0b59c</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.18.1-2.2.13</version>
+				<version>1.18.1-2.2.16</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
 		<Module name="3d Skin Layers" id="skinlayers" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3541/751/3dSkinLayers-Fabric-1.3.1.jar</URL>
-			<Size>418662</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/3635/467/3dSkinLayers-Fabric-mc1.18-1.4.0.jar</URL>
+			<Size>421771</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>384e7d68d263c094cb446a3a774786ac</MD5>
+			<MD5>748800356bbb3a2310ae8a8ed36ac3c2</MD5>
 			<Meta>
-				<license>MIT</license>
+				<license>tr7zw Protective License</license>
 				<description>Renders the player skin layer in 3d</description>
-				<version>1.3.1</version>
+				<version>1.4.0</version>
 				<authors>tr7zw</authors>
 			</Meta>
 		</Module>

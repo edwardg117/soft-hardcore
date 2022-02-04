@@ -1,4 +1,15 @@
 # Changelog
+## V6.07
+Item Scroller should work again
+
+Updated
+- Fabric API
+- Flytre Lib
+- Item Scroller
+- Physics Mod
+- Simple Voice Chat
+- 3d Skin Layers
+
 ## V6.06
 Some mod updates
 
