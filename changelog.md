@@ -1,4 +1,10 @@
 # Changelog
+## V6.08
+I've just been silently updating things because I'm the only one using this atm, just making a note that I updateda bunch of things.
+
+1.19 has been relaesed and not everything has been updated yet, so I'm going to hold off on that.
+
+I also want to start a modded server but I don't think anyone else does.
 ## V6.07
 Item Scroller should work again
 
