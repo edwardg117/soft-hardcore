@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.19" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.19.2" generateList="false" autoConnect="false" revision="8" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.2%2Bbuild.22&amp;loader=0.14.9">fabric</Import>
+	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.19" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.19.3" generateList="false" autoConnect="false" revision="8" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.3%2Bbuild.5&amp;loader=0.14.12">fabric</Import>
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3927/567/appleskin-fabric-mc1.19-2.4.1.jar</URL>
-			<Size>1040951</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4171/199/appleskin-fabric-mc1.19.3-2.4.2.jar</URL>
+			<Size>1057584</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>292570409b9d7311c8b501d434696da2</MD5>
+			<MD5>f86225ef1abc53f75623fd1abea6fd00</MD5>
 			<Meta>
 				<license>Unlicense</license>
 				<description>Adds various food-related HUD improvements</description>
-				<version>2.4.1+mc1.19</version>
+				<version>2.4.2+mc1.19.3</version>
 				<authors>squeek502</authors>
 			</Meta>
 		</Module>
 		<Module name="Bobby" id="bobby" depends="" side="CLIENT">
-			<URL priority="1">https://github.com/Johni0702/bobby/releases/download/v4.0.0/bobby-4.0.0.jar</URL>
-			<Size>776264</Size>
+			<URL priority="1">https://github.com/Johni0702/bobby/releases/download/v4.0.3/bobby-4.0.3.jar</URL>
+			<Size>788532</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>543e8710bd739ae47038f221b515bc98</MD5>
+			<MD5>a5cad3e26950f4fc154ba7286f016cab</MD5>
 			<Meta>
 				<license>LGPL-3.0-or-later</license>
 				<description>Allows for render distances greater than the server&apos;s view-distance setting.</description>
-				<version>4.0.0</version>
+				<version>4.0.3</version>
 				<authors>johni0702</authors>
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="1">https://github.com/RelativityMC/C2ME-fabric/releases/download/0.2.0%2Balpha.9/c2me-fabric-mc1.19.2-0.2.0+alpha.9.0.jar</URL>
-			<Size>1175651</Size>
+			<URL priority="1">https://github.com/RelativityMC/C2ME-fabric/releases/download/0.2.0%2Balpha.9.12/c2me-fabric-mc1.19.3-0.2.0+alpha.9.12.jar</URL>
+			<Size>1174140</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d34cbcf70be25654a1a9bb77f73c9afb</MD5>
+			<MD5>f49bc17195b74d7a7f2606115690ef98</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.9.0</version>
+				<version>0.2.0+alpha.9.12</version>
 				<authors>RelativityMC, ishland</authors>
 			</Meta>
 		</Module>
@@ -68,15 +68,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/4030/862/fabric-api-0.63.0+1.19.2.jar</URL>
-			<Size>1740808</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4256/104/fabric-api-0.70.0+1.19.3.jar</URL>
+			<Size>1840623</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>dd19464fe1bc4dc3f3b7c58462be9f97</MD5>
+			<MD5>86d0a85db89d5f12fc4f3130e21180d4</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.63.0+1.19.2</version>
+				<version>0.70.0+1.19.3</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -89,7 +89,7 @@
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Pregen chunks with fabric!</description>
-				<version>0.3.3</version>
+				<version>0.3.5</version>
 				<authors>SuperCoder79</authors>
 			</Meta>
 		</Module>
@@ -107,76 +107,76 @@
 			</Meta>
 		</Module>
 		<Module name="Iris" id="iris" depends="sodium" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4023/645/iris-mc1.19.2-1.4.0.jar</URL>
-			<Size>2607995</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4291/913/iris-mc1.19.3-1.5.1.jar</URL>
+			<Size>2265058</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>3f01af0eea25465667ca95cd6d3b9784</MD5>
+			<MD5>e42953ed3ddf15f45dbe8d98e0fc6018</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs</description>
-				<version>1.4.0</version>
+				<version>1.5.1</version>
 				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
 			</Meta>
 		</Module>
 		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3923/056/itemscroller-fabric-1.19.2-0.17.1.jar</URL>
-			<Size>117847</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4148/670/itemscroller-fabric-1.19.3-0.18.0.jar</URL>
+			<Size>117914</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>b219e0ad0d32bf8d24e54ad082372282</MD5>
+			<MD5>bdaf5a7bf7bf34a7241dfaaaad88813f</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots</description>
-				<version>0.17.1</version>
+				<version>0.18.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="LambDynamicLights" id="lambdynlights" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3824/820/lambdynamiclights-2.1.2+1.19.jar</URL>
-			<Size>556414</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4257/388/lambdynamiclights-2.2.0+1.19.3.jar</URL>
+			<Size>559472</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>a0e23729ef6a9d1166a9730fefb6fcd9</MD5>
+			<MD5>ac48e647e82053003c992a0393d7ce17</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds dynamic lights to the game.</description>
-				<version>2.1.2+1.19</version>
+				<version>2.2.0+1.19.3</version>
 				<authors>LambdAurora</authors>
 			</Meta>
 		</Module>
 		<Module name="Litematica" id="litematica" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4026/753/litematica-fabric-1.19.2-0.12.5.jar</URL>
-			<Size>904337</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4259/746/litematica-fabric-1.19.3-0.13.1.jar</URL>
+			<Size>903709</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>255d49914cfcb37b03a399f132ecfd38</MD5>
+			<MD5>d85818d73b2cbd29254164a7dc9a1443</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A modern schematic mod for LiteLoader, Rift, Fabric etc.</description>
-				<version>0.12.5</version>
+				<version>0.13.1</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Lithium" id="lithium" depends="" side="SERVER">
-			<URL priority="1">https://edge.forgecdn.net/files/4027/160/lithium-fabric-mc1.19.2-0.9.1.jar</URL>
-			<Size>537267</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4151/763/lithium-fabric-mc1.19.3-0.10.4.jar</URL>
+			<Size>555778</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5ab9573fb03650aff6b7399bf541f8bd</MD5>
+			<MD5>c3062eb9413c8aeb615da060e57c2515</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.</description>
-				<version>0.9.1</version>
+				<version>0.10.4</version>
 				<authors>JellySquid, 2No2Name</authors>
 			</Meta>
 		</Module>
 		<Module name="Logical Zoom" id="logicalzoom" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3919/920/logical_zoom-0.0.17.jar</URL>
+			<URL priority="1">https://edge.forgecdn.net/files/4143/630/logical_zoom-0.0.18.jar</URL>
 			<Size>120017</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>80f98b7e4e624c864917a30ab7156c0b</MD5>
+			<MD5>826a8192757509de4e2865949fcfa58a</MD5>
 			<Meta>
 				<description>Add a zoom key (If you aren&apos;t using Optifine)</description>
 				<version>0.0.14</version>
@@ -184,41 +184,41 @@
 			</Meta>
 		</Module>
 		<Module name="MaLiLib" id="malilib" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3923/052/malilib-fabric-1.19.2-0.13.0.jar</URL>
-			<Size>516948</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4147/598/malilib-fabric-1.19.3-0.14.0.jar</URL>
+			<Size>514974</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0a18dab0bfeec2b6e782ee4ad080d114</MD5>
+			<MD5>7ae6dda109f43ddfb65ef39ad41efca1</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A library mod required by masa&apos;s client-side mods</description>
-				<version>0.13.0</version>
+				<version>0.14.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="MiniHUD" id="minihud" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3923/228/minihud-fabric-1.19.2-0.23.3.jar</URL>
-			<Size>317480</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4160/116/minihud-fabric-1.19.3-0.25.0.jar</URL>
+			<Size>328900</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>c0352795123cd4b29681d109f0f58dd6</MD5>
+			<MD5>a193e7ca8c98b753fc36684964fe4805</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Configurable &quot;mini-F3&quot; info lines, and various overlay renderers</description>
-				<version>0.23.3</version>
+				<version>0.25.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3920/481/modmenu-4.0.6.jar</URL>
-			<Size>445942</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4159/524/modmenu-5.0.2.jar</URL>
+			<Size>637090</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>7d43642927290f6a90489e11646ce759</MD5>
+			<MD5>3d8714a72af7e33f5f896f503919725e</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds a mod menu to view the list of mods you have installed.</description>
-				<version>4.0.6</version>
+				<version>5.0.2</version>
 				<authors>Prospector, jackassmc, TerraformersMC</authors>
 			</Meta>
 		</Module>
@@ -230,7 +230,7 @@
 			<MD5>94178987cfac6f04d139deb2066523ef</MD5>
 			<Meta>
 				<description>Loads Optifine. Remove if not using Optifine.</description>
-				<version>1.13.0</version>
+				<version>1.13.16</version>
 				<authors>Chocohead</authors>
 			</Meta>
 		</Module>
@@ -250,28 +250,28 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://minecraftphysicsmod.com/s/physics-mod-2813a-mc-119x-fabric.jar</URL>
-			<Size>12576310</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4141/684/physics-mod-2.9.4-mc-1.19.3-fabric.jar</URL>
+			<Size>53312277</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>482591c32fb3a963630e181c39976865</MD5>
+			<MD5>7e20464a1576495b1af5420174107dd6</MD5>
 			<Meta>
-				<license>CC0-1.0</license>
+				<license>All rights reserved</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.8.13</version>
+				<version>2.9.4</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
 		<Module name="Replay Mod" id="replaymod" depends="" side="CLIENT">
-			<URL priority="1">https://www.replaymod.com/download/download_new.php?version=1.19.1-2.6.8</URL>
-			<Size>13797268</Size>
+			<URL priority="1">https://www.replaymod.com/download/download_new.php?version=1.19.3-2.6.10</URL>
+			<Size>14154495</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>6615657a17710c73c076d6e512c8eee4</MD5>
+			<MD5>9e3d24043f2fcd791f92197a33f72ec6</MD5>
 			<Meta>
 				<license>GPL-3.0-or-later</license>
 				<description>A Mod which allows you to record, replay and share your Minecraft experience.</description>
-				<version>1.19.1-2.6.8</version>
+				<version>1.19.3-2.6.10</version>
 				<authors>CrushedPixel, johni0702</authors>
 			</Meta>
 		</Module>
@@ -289,41 +289,41 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/4011/777/voicechat-fabric-1.19.2-2.3.10.jar</URL>
-			<Size>8382612</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4271/669/voicechat-fabric-1.19.3-2.3.26.jar</URL>
+			<Size>8246767</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>5a6e5f6d98fdc82542cb521937f17d5d</MD5>
+			<MD5>7bbd1e5dd773f451ccf57208d0a13508</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.19.2-2.3.10</version>
+				<version>1.19.3-2.3.26</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
 		<Module name="3d Skin Layers" id="skinlayers" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4001/981/3dskinlayers-fabric-1.5.2-mc1.19.1.jar</URL>
-			<Size>447970</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4142/188/3dskinlayers-fabric-1.5.2-mc1.19.3.jar</URL>
+			<Size>448391</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>351ab36e3d20c1b96cc917b720d77f80</MD5>
+			<MD5>0a7b350f9654fab73ad6422219219454</MD5>
 			<Meta>
 				<license>tr7zw Protective License</license>
 				<description>Renders the player skin layer in 3d</description>
-				<version>1.5.2-mc1.19.1</version>
+				<version>1.5.2-mc1.19.3</version>
 				<authors>tr7zw</authors>
 			</Meta>
 		</Module>
 		<Module name="Sodium" id="sodium" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3957/319/sodium-fabric-mc1.19.2-0.4.4+build.18.jar</URL>
-			<Size>1372575</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4291/859/sodium-fabric-mc1.19.3-0.4.8+build.22.jar</URL>
+			<Size>715490</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f864470ac732f505dd5c774010449540</MD5>
+			<MD5>3592311142729cd92d873e96303f52db</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
-				<version>0.4.4+build.18</version>
+				<version>0.4.8+build.22</version>
 				<authors>JellySquid</authors>
 			</Meta>
 		</Module>
@@ -353,52 +353,65 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Tweakeroo" id="tweakeroo" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3923/075/tweakeroo-fabric-1.19.2-0.14.3.jar</URL>
-			<Size>269995</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4162/596/tweakeroo-fabric-1.19.3-0.15.0.jar</URL>
+			<Size>272551</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>a9a4922ef397cfbbcd0ea1b3584f14f0</MD5>
+			<MD5>c53c856e34e4aea0acd5c3f68389766e</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Adds a bunch of configurable client-side tweaks</description>
-				<version>0.14.3</version>
+				<version>0.15.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4012/614/Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar</URL>
-			<Size>1294728</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4181/109/Xaeros_Minimap_22.17.0_Fabric_1.19.3.jar</URL>
+			<Size>1325176</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>6cfe6ae5648da5104f4d26c71b61d703</MD5>
+			<MD5>fb36fd88fd19483cb912ef8317ac0742</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>The most vanilla-looking minimap for Minecraft.</description>
-				<version>22.15.1</version>
+				<version>22.17.0</version>
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4010/419/XaerosWorldMap_1.28.0_Fabric_1.19.1.jar</URL>
-			<Size>753230</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4193/010/XaerosWorldMap_1.28.7_Fabric_1.19.3.jar</URL>
+			<Size>764752</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0b013ca6353fe685b9eaa81618514e4c</MD5>
+			<MD5>e820b5719522aa257079bebb2c49b4fd</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.28.0</version>
+				<version>1.28.7</version>
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Distant Horizons" id="lod" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3923/597/DistantHorizons-1.6.9a-1.19.2.jar</URL>
-			<Size>2612822</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4278/698/DistantHorizons-1.6.10a-1.19.3.jar</URL>
+			<Size>2716520</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f25b7e33103d08e49995e4d087bb3109</MD5>
+			<MD5>de503a687f32e85da7dd6af2eb62812f</MD5>
 			<Meta>
-				<version>1.6.9a</version>
+				<version>1.6.10a</version>
+			</Meta>
+		</Module>
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
+			<URL priority="1">https://edge.forgecdn.net/files/3940/455/BetterAdvancements-Fabric-1.19.2-0.2.2.142.jar</URL>
+			<Size>72577</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>7d0fca06403bfadd1ff21ab73f477375</MD5>
+			<Meta>
+				<license>&quot;Don&apos;t Be a Jerk&quot; non-commercial care-free license</license>
+				<description>Improvements to the advancements screen.</description>
+				<version>0.2.2.142</version>
+				<authors>way2muchnoise</authors>
 			</Meta>
 		</Module>
 	</Server>
