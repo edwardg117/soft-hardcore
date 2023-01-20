@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.19" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.19.3" generateList="false" autoConnect="false" revision="8" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.3%2Bbuild.5&amp;loader=0.14.12">fabric</Import>
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.3%2Bbuild.5&amp;loader=0.14.13">fabric</Import>
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
 			<URL priority="1">https://edge.forgecdn.net/files/4171/199/appleskin-fabric-mc1.19.3-2.4.2.jar</URL>
 			<Size>1057584</Size>
@@ -29,15 +29,15 @@
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="1">https://github.com/RelativityMC/C2ME-fabric/releases/download/0.2.0%2Balpha.9.12/c2me-fabric-mc1.19.3-0.2.0+alpha.9.12.jar</URL>
-			<Size>1174140</Size>
+			<URL priority="1">https://github.com/RelativityMC/C2ME-fabric/releases/download/0.2.0%2Balpha.10/c2me-fabric-mc1.19.3-0.2.0+alpha.10.0.jar</URL>
+			<Size>1181808</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f49bc17195b74d7a7f2606115690ef98</MD5>
+			<MD5>2412f79bbf21a8533e2ffdcc22fd6bd9</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.9.12</version>
+				<version>0.2.0+alpha.10.0</version>
 				<authors>RelativityMC, ishland</authors>
 			</Meta>
 		</Module>
@@ -68,15 +68,15 @@
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/4256/104/fabric-api-0.70.0+1.19.3.jar</URL>
-			<Size>1840623</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4302/481/fabric-api-0.72.0+1.19.3.jar</URL>
+			<Size>1893616</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>86d0a85db89d5f12fc4f3130e21180d4</MD5>
+			<MD5>6c6b5525a839afa6c735fd42f1ed2a06</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.70.0+1.19.3</version>
+				<version>0.72.0+1.19.3</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
@@ -250,15 +250,15 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4141/684/physics-mod-2.9.4-mc-1.19.3-fabric.jar</URL>
-			<Size>53312277</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4343/618/physics-mod-2.9.7-mc-1.19.3-fabric.jar</URL>
+			<Size>74640151</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>7e20464a1576495b1af5420174107dd6</MD5>
+			<MD5>e4e01ac4c71267f9285ff7a0e38ab604</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.9.4</version>
+				<version>2.9.7</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
@@ -289,15 +289,15 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://edge.forgecdn.net/files/4271/669/voicechat-fabric-1.19.3-2.3.26.jar</URL>
-			<Size>8246767</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4332/117/voicechat-fabric-1.19.3-2.3.27.jar</URL>
+			<Size>8246881</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>7bbd1e5dd773f451ccf57208d0a13508</MD5>
+			<MD5>5a62519e869da742843a388a083687aa</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.19.3-2.3.26</version>
+				<version>1.19.3-2.3.27</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
@@ -366,28 +366,28 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4181/109/Xaeros_Minimap_22.17.0_Fabric_1.19.3.jar</URL>
-			<Size>1325176</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4338/624/Xaeros_Minimap_22.17.1_Fabric_1.19.3.jar</URL>
+			<Size>1329410</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>fb36fd88fd19483cb912ef8317ac0742</MD5>
+			<MD5>ea164b3a9df88456fa1eb07f47f97172</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>The most vanilla-looking minimap for Minecraft.</description>
-				<version>22.17.0</version>
+				<version>22.17.1</version>
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4193/010/XaerosWorldMap_1.28.7_Fabric_1.19.3.jar</URL>
-			<Size>764752</Size>
+			<URL priority="1">https://edge.forgecdn.net/files/4338/636/XaerosWorldMap_1.28.8_Fabric_1.19.3.jar</URL>
+			<Size>768037</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>e820b5719522aa257079bebb2c49b4fd</MD5>
+			<MD5>82322921d3238cb324cbf96f998e96ae</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.28.7</version>
+				<version>1.28.8</version>
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
