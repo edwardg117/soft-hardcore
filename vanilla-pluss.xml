@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.19" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.19.4" generateList="false" autoConnect="false" revision="9" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.4%2Bbuild.2&amp;loader=0.14.19">fabric</Import>
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.4%2Bbuild.2&amp;loader=0.14.21">fabric</Import>
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
 			<URL priority="1">https://edge.forgecdn.net/files/4440/101/appleskin-fabric-mc1.19.4-2.4.3.jar</URL>
 			<Size>1060090</Size>
