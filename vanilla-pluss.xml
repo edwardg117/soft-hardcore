@@ -402,15 +402,15 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/272515/files/4111317/download</URL>
-			<Size>64113</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/272515/files/4543967/download</URL>
+			<Size>74830</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>9c56582ad272f71289c8b14ffe1cee5e</MD5>
+			<MD5>4300b35d874e07a77f2be08dacbc63f1</MD5>
 			<Meta>
 				<license>&quot;Don&apos;t Be a Jerk&quot; non-commercial care-free license</license>
 				<description>Improvements to the advancements screen.</description>
-				<version>0.2.0.146</version>
+				<version>0.3.1.157</version>
 				<authors>way2muchnoise</authors>
 			</Meta>
 		</Module>
