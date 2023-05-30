@@ -533,15 +533,15 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="DashLoader" id="dashloader" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/472772/files/4443823/download</URL>
-			<Size>5815869</Size>
+			<URL priority="1">https://cdn.modrinth.com/data/ZfQ3kTvR/versions/xwPC6okA/dashloader-5.0.0-alpha.14%2B1.19.4.jar</URL>
+			<Size>5816352</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f8a6dfa53f9f7dd206178611ecf86e75</MD5>
+			<MD5>795889a9a1469983485c71045b7cc30a</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Launch at the speed of Light.</description>
-				<version>5.0.0-alpha.13+1.19.4</version>
+				<version>5.0.0-alpha.14+1.19.4</version>
 				<authors>!alpha, leocth</authors>
 			</Meta>
 		</Module>
