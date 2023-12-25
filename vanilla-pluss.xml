@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.19" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.19.4" generateList="false" autoConnect="false" revision="9" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
-		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.4%2Bbuild.2&amp;loader=0.14.21">fabric</Import>
+	<Server id="valillapluss1_18" abstract="false" name="Vanilla+ 1.20" newsUrl="https://htmlpreview.github.io/?https://raw.githubusercontent.com/edwardg117/soft-hardcore/master/news.html" version="1.20.2" generateList="false" autoConnect="false" revision="10" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.20.2%2Bbuild.1&amp;loader=0.14.22">fabric</Import>
 		<Module name="AppleSkin" id="appleskin" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4440/101/appleskin-fabric-mc1.19.4-2.4.3.jar</URL>
-			<Size>1060090</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/248787/files/4605078/download</URL>
+			<Size>47447</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>67bf7c377f18d1cabf29f68a6d9af37a</MD5>
+			<MD5>e2e1bc69dd56e4945ab47cdb9a92e12b</MD5>
 			<Meta>
-				<license>Unlicense</license>
+				<license>The Unlicense</license>
 				<description>Adds various food-related HUD improvements</description>
-				<version>2.4.3+mc1.19.4</version>
-				<authors>squeek502</authors>
+				<version>2.5.0+mc1.20.1</version>
+				<authors>squeek</authors>
 			</Meta>
 		</Module>
 		<Module name="Bobby" id="bobby" depends="" side="CLIENT">
-			<URL priority="1">https://github.com/Johni0702/bobby/releases/download/v4.0.5/bobby-4.0.5.jar</URL>
-			<Size>796314</Size>
+			<URL priority="1">https://github.com/Johni0702/bobby/releases/download/v5.0.2/bobby-5.0.2.jar</URL>
+			<Size>805296</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>01b85072f04c9a1c8b3c75858e55e7fb</MD5>
+			<MD5>3db825a99dd07847d6610da411b7f1b0</MD5>
 			<Meta>
 				<license>LGPL-3.0-or-later</license>
 				<description>Allows for render distances greater than the server&apos;s view-distance setting.</description>
-				<version>4.0.5</version>
+				<version>5.0.2</version>
 				<authors>johni0702</authors>
 			</Meta>
 		</Module>
 		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="SERVER">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/533097/files/4557029/download</URL>
-			<Size>1294488</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/533097/files/4764424/download</URL>
+			<Size>1299699</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4ae7f42d9bc399ea0b3b7fcc65e32848</MD5>
+			<MD5>56e6a8506d95919ba30bb4cfcb335d1f</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
-				<version>0.2.0+alpha.10.55</version>
+				<version>0.2.0+alpha.10.126</version>
 				<authors>RelativityMC, ishland</authors>
 			</Meta>
 		</Module>
@@ -54,38 +54,38 @@
 				<authors>Flytre</authors>
 			</Meta>
 		</Module>
-		<Module name="Dynamic FPS" id="dynamicfps" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/3829/250/dynamic-fps-2.2.0.jar</URL>
-			<Size>89446</Size>
+		<Module name="Dynamic FPS" id="dynamic_fps" depends="" side="CLIENT">
+			<URL priority="1">https://cdn.modrinth.com/data/LQ3K71Q1/versions/MJxmQ042/dynamic-fps-3.2.1%2Bminecraft-1.20.0.jar</URL>
+			<Size>70316</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>79898bd2d0557171a709ff5885d80dd3</MD5>
+			<MD5>9550d2ab02fd61d3b80101e531b784ae</MD5>
 			<Meta>
 				<license>MIT</license>
-				<description>Dynamically adjusts FPS so minecraft doesn&apos;t hog resources in background.</description>
-				<version>2.2.0</version>
-				<authors>juliand665</authors>
+				<description>Dynamically adjusts FPS so Minecraft doesn&apos;t hog resources in background.</description>
+				<version>3.2.1</version>
+				<authors>juliand665, LostLuma</authors>
 			</Meta>
 		</Module>
 		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/306612/files/4551126/download</URL>
-			<Size>1986952</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/306612/files/4811100/download</URL>
+			<Size>2085531</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1e24c80d889f2ff268d6e0f5ce26146e</MD5>
+			<MD5>48d6708c9929fd9e800d95944b943116</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Core API module providing key hooks and intercompatibility features.</description>
-				<version>0.82.0+1.19.4</version>
+				<version>0.90.4+1.20.2</version>
 				<authors>FabricMC</authors>
 			</Meta>
 		</Module>
 		<Module name="Fabric Chunk Pregenerator" id="chunkpregen" depends="" side="SERVER">
-			<URL priority="1">https://edge.forgecdn.net/files/4462/859/fabric-chunkpregen-0.3.6.jar</URL>
-			<Size>20917</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/361585/files/4587260/download</URL>
+			<Size>20699</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>fd23667846976d72d6a3b1d3fc28bf79</MD5>
+			<MD5>49c43a70cd4080d4ee09bb6ef173ea57</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Pregen chunks with fabric!</description>
@@ -107,76 +107,76 @@
 			</Meta>
 		</Module>
 		<Module name="Iris" id="iris" depends="sodium" side="CLIENT">
-			<URL priority="1">https://cdn.modrinth.com/data/YL57xq9U/versions/AQqB1OqQ/iris-mc1.19.4-1.6.3.jar</URL>
-			<Size>2355051</Size>
+			<URL priority="1">https://cdn.modrinth.com/data/YL57xq9U/versions/O7RZrusV/iris-mc1.20.2-1.6.10.jar</URL>
+			<Size>2413419</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0a5894df1f0e9072e7f375ae74258f8f</MD5>
+			<MD5>970af47699ccd6532610dc4a2f4e1f11</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs</description>
-				<version>1.6.3</version>
+				<version>1.6.10</version>
 				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
 			</Meta>
 		</Module>
 		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4444/342/itemscroller-fabric-1.19.4-0.19.2.jar</URL>
-			<Size>117954</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/242064/files/4788435/download</URL>
+			<Size>118106</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>35d3f3b93e56bef87236799dda92d195</MD5>
+			<MD5>5b3c6efbacfe7f554f2d2aa5cdf00d8e</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots</description>
-				<version>0.19.2</version>
+				<version>0.21.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="LambDynamicLights" id="lambdynlights" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4464/566/lambdynamiclights-2.3.0+1.19.4.jar</URL>
-			<Size>561327</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/393442/files/4748219/download</URL>
+			<Size>573183</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>338dc5c251ceb7a3caf834ea8f108831</MD5>
+			<MD5>9e931a5331bfe8cee677a413b8aea776</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds dynamic lights to the game.</description>
-				<version>2.3.0+1.19.4</version>
+				<version>2.3.2+1.20.1</version>
 				<authors>LambdAurora</authors>
 			</Meta>
 		</Module>
 		<Module name="Litematica" id="litematica" depends="malilib" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/308892/files/4492787/download</URL>
-			<Size>907642</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/308892/files/4789765/download</URL>
+			<Size>920286</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>115a84d9a0db155cac8bc648ac28c4f4</MD5>
+			<MD5>78735cbba845cfe9ab24e15f939ebf6e</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A modern schematic mod for LiteLoader, Rift, Fabric etc.</description>
-				<version>0.14.3</version>
+				<version>0.16.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Lithium" id="lithium" depends="" side="SERVER">
-			<URL priority="1">https://edge.forgecdn.net/files/4439/705/lithium-fabric-mc1.19.4-0.11.1.jar</URL>
-			<Size>639391</Size>
+			<URL priority="1">https://cdn.modrinth.com/data/gvQqBUqZ/versions/qdzL5Hkg/lithium-fabric-mc1.20.2-0.12.0.jar</URL>
+			<Size>688442</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e51a0f1acac6ab6c1355e031148168e5</MD5>
+			<MD5>f573d4d5e65bf0fb237567afa294bbcd</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.</description>
-				<version>0.11.1</version>
+				<version>0.12.0</version>
 				<authors>JellySquid, 2No2Name</authors>
 			</Meta>
 		</Module>
 		<Module name="Logical Zoom" id="logicalzoom" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4439/394/logical_zoom-0.0.19.jar</URL>
-			<Size>120016</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/356461/files/4583009/download</URL>
+			<Size>120011</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>27c2df68cb041f62a4ee35611b0d00af</MD5>
+			<MD5>aef03e6e66bcd91944cee7e2ae25728d</MD5>
 			<Meta>
 				<description>Add a zoom key (If you aren&apos;t using Optifine)</description>
 				<version>0.0.14</version>
@@ -184,62 +184,62 @@
 			</Meta>
 		</Module>
 		<Module name="MaLiLib" id="malilib" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/303119/files/4519977/download</URL>
-			<Size>525560</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/303119/files/4788432/download</URL>
+			<Size>746157</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>c01773cfb3db4fd88803d9c3373eb6f7</MD5>
+			<MD5>abccb28f65f0087682d3428cab547bf5</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>A library mod required by masa&apos;s client-side mods</description>
-				<version>0.15.4</version>
+				<version>0.17.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="MiniHUD" id="minihud" depends="malilib" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4444/346/minihud-fabric-1.19.4-0.26.2.jar</URL>
-			<Size>328620</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/244260/files/4793994/download</URL>
+			<Size>328074</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f30373745c8203ebd0ee3f9ee4df2055</MD5>
+			<MD5>90ee6e2d23fa5e5673534c61d74984d3</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Configurable &quot;mini-F3&quot; info lines, and various overlay renderers</description>
-				<version>0.26.2</version>
+				<version>0.28.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
-			<URL priority="1">https://cdn.modrinth.com/data/mOgUt4GM/versions/iZRiOnnj/modmenu-6.2.2.jar</URL>
-			<Size>722329</Size>
+			<URL priority="1">https://cdn.modrinth.com/data/mOgUt4GM/versions/TwfjidT5/modmenu-8.0.0.jar</URL>
+			<Size>727276</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>a94f5d45c46c563abe277c1dedadc355</MD5>
+			<MD5>1dfdf78dda5cad51256b53a9fe6ebbf5</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Adds a mod menu to view the list of mods you have installed.</description>
-				<version>6.2.2</version>
+				<version>8.0.0</version>
 				<authors>Prospector, haykam821, TerraformersMC</authors>
 			</Meta>
 		</Module>
 		<Module name="Optifabric" id="optifabric" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4455/920/optifabric-1.13.24.jar</URL>
-			<Size>480065</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/322385/files/4642832/download</URL>
+			<Size>490582</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>05c3b8b1c55f1de8addc3fa5720424ed</MD5>
+			<MD5>e03460bfb4ad647236dd642c0f24ba6e</MD5>
 			<Meta>
 				<description>Loads Optifine. Remove if not using Optifine.</description>
-				<version>1.13.16</version>
+				<version>1.13.25</version>
 				<authors>Chocohead</authors>
 			</Meta>
 		</Module>
 		<Module name="OptiFine" id="optifine" depends="optifabric" side="CLIENT">
-			<URL priority="1">https://optifine.net/adloadx?f=OptiFine_1.19.4_HD_U_I4.jar</URL>
-			<Size>7049104</Size>
+			<URL priority="1">https://optifine.net/adloadx?f=OptiFine_1.20.2_HD_U_I5.jar</URL>
+			<Size>16</Size>
 			<Required>false</Required>
-			<ModType>Regular</ModType>
-			<MD5>adb67e1ac3f2c55c9b874d3013b1e147</MD5>
+			<ModType>Removal</ModType>
+			<MD5>4845f01eaa8068384625e302e9a4eb05</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>OptiFine is a Minecraft optimization mod.
@@ -250,28 +250,28 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Physics Mod" id="physicsmod" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/442735/files/4500468/download</URL>
-			<Size>60513361</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/442735/files/4782923/download</URL>
+			<Size>139327241</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>2c75422a1f28d61c3a979574f2f0b4ca</MD5>
+			<MD5>47288a3680e27ab3bb69a889082bf8a5</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>Welcome to a more destructive Minecraft then you&apos;ve ever seen before!</description>
-				<version>2.12.3</version>
+				<version>3.0.9</version>
 				<authors>Haubna</authors>
 			</Meta>
 		</Module>
 		<Module name="Replay Mod" id="replaymod" depends="" side="CLIENT">
-			<URL priority="1">https://www.replaymod.com/download/download_new.php?version=1.19.4-2.6.12</URL>
-			<Size>12812840</Size>
+			<URL priority="1">https://www.replaymod.com/download/download_new.php?version=1.20.1-2.6.13</URL>
+			<Size>13075030</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>beaab5b93d7b1fc2591e0472b9b303d2</MD5>
+			<MD5>a21e94698cebef2a52b13f9871a6ca96</MD5>
 			<Meta>
 				<license>GPL-3.0-or-later</license>
 				<description>A Mod which allows you to record, replay and share your Minecraft experience.</description>
-				<version>1.19.4-2.6.12</version>
+				<version>1.20.1-2.6.13</version>
 				<authors>CrushedPixel, johni0702</authors>
 			</Meta>
 		</Module>
@@ -289,54 +289,54 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/416089/files/4540811/download</URL>
-			<Size>7935023</Size>
-			<Required>false</Required>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/416089/files/4799662/download</URL>
+			<Size>8092997</Size>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>231882f8034ac4476f165e21d4c3e236</MD5>
+			<MD5>16d5d75398c2ae2c554d75c7988bcc73</MD5>
 			<Meta>
 				<license>All Rights Reserved</license>
 				<description>A working voice chat in Minecraft!</description>
-				<version>1.19.4-2.4.8</version>
+				<version>1.20.2-2.4.27</version>
 				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
 		<Module name="3d Skin Layers" id="skinlayers" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4437/104/3dskinlayers-fabric-1.5.3-mc1.19.4.jar</URL>
-			<Size>438420</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/521480/files/4767562/download</URL>
+			<Size>447962</Size>
 			<Required>false</Required>
 			<ModType>Regular</ModType>
-			<MD5>1524c68200fa70cd3aecffc512af6344</MD5>
+			<MD5>39832520f036d7847dc1ed80355e2bc5</MD5>
 			<Meta>
 				<license>tr7zw Protective License</license>
 				<description>Renders the player skin layer in 3d</description>
-				<version>1.5.3-mc1.19.4</version>
+				<version>1.5.6-mc1.20.2</version>
 				<authors>tr7zw</authors>
 			</Meta>
 		</Module>
 		<Module name="Sodium" id="sodium" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4437/119/sodium-fabric-mc1.19.4-0.4.10+build.24.jar</URL>
-			<Size>711302</Size>
+			<URL priority="1">https://cdn.modrinth.com/data/AANobbMI/versions/bbP1qBMr/sodium-fabric-mc1.20.2-0.5.3.jar</URL>
+			<Size>854938</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>088dfb7323e7a042fb6edf1f0e7802d9</MD5>
+			<MD5>1aa421662c19886665425ca9d202fead</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
-				<version>0.4.10+build.24</version>
+				<version>0.5.3</version>
 				<authors>JellySquid</authors>
 			</Meta>
 		</Module>
 		<Module name="Starlight" id="starlight" depends="" side="SERVER">
-			<URL priority="1">https://edge.forgecdn.net/files/3835/973/starlight-1.1.1+fabric.ae22326.jar</URL>
-			<Size>127465</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/521783/files/4802458/download</URL>
+			<Size>126416</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>98bca210d5ddaee18a6375ad27f505f8</MD5>
+			<MD5>088661891fafd1b1aca078fff4ea19d4</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Rewrites the light engine to fix lighting performance and lighting errors</description>
-				<version>1.1.1+fabric.ae22326</version>
+				<version>1.1.3+fabric.5867eae</version>
 				<authors>Spottedleaf</authors>
 			</Meta>
 		</Module>
@@ -353,41 +353,41 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="Tweakeroo" id="tweakeroo" depends="" side="CLIENT">
-			<URL priority="1">https://edge.forgecdn.net/files/4444/349/tweakeroo-fabric-1.19.4-0.16.0.jar</URL>
-			<Size>272529</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/297344/files/4788437/download</URL>
+			<Size>273442</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>e3a2476d9af969ecc912d027cce2ee6b</MD5>
+			<MD5>c55ae10915a7c2c014d10a7915a1aecb</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Adds a bunch of configurable client-side tweaks</description>
-				<version>0.16.0</version>
+				<version>0.18.0</version>
 				<authors>masa</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/263420/files/4550317/download</URL>
-			<Size>1345936</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/263420/files/4685509/download</URL>
+			<Size>1377918</Size>
 			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>ce88750eafa7ba99720d59a5bc8a1b99</MD5>
+			<ModType>Removal</ModType>
+			<MD5>d3ace6641351afee429e9104d78ff692</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>The most vanilla-looking minimap for Minecraft.</description>
-				<version>23.4.4</version>
+				<version>23.6.1</version>
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/317780/files/4550338/download</URL>
-			<Size>845492</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/317780/files/4685564/download</URL>
+			<Size>874188</Size>
 			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>6525301f32448cad7088fd7ffafa078e</MD5>
+			<ModType>Removal</ModType>
+			<MD5>7e3baee3304ab65365901027d42e0efc</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.30.3</version>
+				<version>1.32.0</version>
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
@@ -395,49 +395,49 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			<URL priority="1">https://edge.forgecdn.net/files/4443/878/DistantHorizons-1.6.11a-1.19.4.jar</URL>
 			<Size>2643607</Size>
 			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
+			<ModType>Removal</ModType>
 			<MD5>c06a0c711df258d3303b0db05a64e956</MD5>
 			<Meta>
 				<version>1.6.11a</version>
 			</Meta>
 		</Module>
 		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/272515/files/4543967/download</URL>
-			<Size>74830</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/272515/files/4631256/download</URL>
+			<Size>73334</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>4300b35d874e07a77f2be08dacbc63f1</MD5>
+			<MD5>4224906541269341e0a97c1c6e2b01f5</MD5>
 			<Meta>
 				<license>&quot;Don&apos;t Be a Jerk&quot; non-commercial care-free license</license>
 				<description>Improvements to the advancements screen.</description>
-				<version>0.3.1.157</version>
+				<version>0.3.2.161</version>
 				<authors>way2muchnoise</authors>
 			</Meta>
 		</Module>
 		<Module name="Alternate Current" id="alternate-current" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/548115/files/4406080/download</URL>
-			<Size>38323</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/548115/files/4609501/download</URL>
+			<Size>38501</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0b994359edefcd8372fdcde5c0ecf801</MD5>
+			<MD5>dfaaaeb801ab701d40fc9192084d4f11</MD5>
 			<Meta>
 				<license>MIT Licence</license>
 				<description>An efficient and non-locational redstone dust implementation.</description>
-				<version>1.5.0</version>
+				<version>1.7.0</version>
 				<authors>Space Walker</authors>
 			</Meta>
 		</Module>
 		<Module name="Clumps" id="clumps" depends="" side="SERVER">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/256717/files/4444794/download</URL>
-			<Size>19080</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/256717/files/4764865/download</URL>
+			<Size>21990</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9da07444935b35aba4b53b2df4cf1d8c</MD5>
+			<MD5>638638f545169b2f38d57e551fce669f</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Clumps xp orbs together.
 </description>
-				<version>10.0.0.2</version>
+				<version>13.0.0.3</version>
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
@@ -455,166 +455,179 @@ It allows Minecraft to run faster and look better with full support for shaders,
 			</Meta>
 		</Module>
 		<Module name="EntityCulling-Fabric" id="entityculling" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/448233/files/4437103/download</URL>
-			<Size>56582</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/448233/files/4763646/download</URL>
+			<Size>59348</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>2e690be1347fb086454d4d4459dba17e</MD5>
+			<MD5>29b1642d4e958fd88822e55410f70dfd</MD5>
 			<Meta>
 				<license>tr7zw Protective License</license>
 				<description>This mod uses async path-tracing to hide Tiles/Entities that are not visible.</description>
-				<version>1.6.2-mc1.19.4</version>
+				<version>1.6.2-mc1.20.1</version>
 				<authors>tr7zw</authors>
 			</Meta>
 		</Module>
 		<Module name="Exordium" id="exordium" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/681953/files/4439275/download</URL>
-			<Size>123921</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/681953/files/4763846/download</URL>
+			<Size>325841</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>de0636009111c915667c5e17302814df</MD5>
+			<MD5>d91406b5c08c7611c367fc97844e8f01</MD5>
 			<Meta>
 				<license>tr7zw Protective License</license>
 				<description>Render the ingame gui on its own FPS limiter</description>
-				<version>1.0.3-mc1.19.4</version>
+				<version>1.2.1-mc1.20.2</version>
 				<authors>tr7zw</authors>
 			</Meta>
 		</Module>
-		<Module name="YetAnotherConfigLib" id="yet_another_config_lib" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/667299/files/4523734/download</URL>
-			<Size>220930</Size>
+		<Module name="YetAnotherConfigLib" id="yet_another_config_lib_v3" depends="" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/667299/files/4767003/download</URL>
+			<Size>970995</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>b0797b31df9d9ce9e3523dee23bef0ef</MD5>
+			<MD5>eeef0a02544849d3bc6741e18c61cbfe</MD5>
 			<Meta>
 				<license>LGPL-3.0-or-later</license>
 				<description>YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.</description>
-				<version>2.5.1+1.19.4</version>
+				<version>3.2.0+1.20</version>
 				<authors>isXander</authors>
 			</Meta>
 		</Module>
-		<Module name="EntityCulling-Fabric" id="entityculling" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/448233/files/4437103/download</URL>
-			<Size>56582</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>2e690be1347fb086454d4d4459dba17e</MD5>
-			<Meta>
-				<license>tr7zw Protective License</license>
-				<description>This mod uses async path-tracing to hide Tiles/Entities that are not visible.</description>
-				<version>1.6.2-mc1.19.4</version>
-				<authors>tr7zw</authors>
-			</Meta>
-		</Module>
 		<Module name="Enhanced Block Entities" id="enhancedblockentities" depends="indium" side="CLIENT">
-			<URL priority="1">https://github.com/MeeniMc/EnhancedBlockEntities/releases/download/v0.8.rc.1%2B1.19.4/enhancedblockentities-0.8+1.19.4.jar</URL>
-			<Size>482738</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/452046/files/4610052/download</URL>
+			<Size>490690</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>f0dc636a91938172d7b145fafd883ab2</MD5>
+			<MD5>bfc7a62a2834f824bb426b73f383e0cb</MD5>
 			<Meta>
 				<license>LGPLv3</license>
 				<description>Optimize and customize block entity rendering with a more modern approach.</description>
-				<version>0.8+1.19.4</version>
+				<version>0.9+1.20</version>
 				<authors>FoundationGames</authors>
 			</Meta>
 		</Module>
 		<Module name="Indium" id="indium" depends="" side="CLIENT">
-			<URL priority="1">https://cdn.modrinth.com/data/Orvt0mRa/versions/qqiFL8NF/indium-1.0.15%2Bmc1.19.4.jar</URL>
-			<Size>113989</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/459496/files/4765124/download</URL>
+			<Size>104807</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d6a60f11da255135de147776d03edcf7</MD5>
+			<MD5>3e9cb7736e01332c1789be0e7583dbf8</MD5>
 			<Meta>
 				<license>Apache-2.0</license>
 				<description>Sodium addon providing support for the Fabric Rendering API, based on Indigo</description>
-				<version>1.0.15+mc1.19.4</version>
+				<version>1.0.27+mc1.20.1</version>
 				<authors>comp500</authors>
 			</Meta>
 		</Module>
 		<Module name="DashLoader" id="dashloader" depends="" side="CLIENT">
-			<URL priority="1">https://cdn.modrinth.com/data/ZfQ3kTvR/versions/xwPC6okA/dashloader-5.0.0-alpha.14%2B1.19.4.jar</URL>
-			<Size>5816352</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/472772/files/4704105/download</URL>
+			<Size>5819388</Size>
 			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>795889a9a1469983485c71045b7cc30a</MD5>
+			<ModType>Removal</ModType>
+			<MD5>eaedf409bbe209474c5b75283d58c020</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
 				<description>Launch at the speed of Light.</description>
-				<version>5.0.0-alpha.14+1.19.4</version>
+				<version>5.0.0-beta.2+1.20.0</version>
 				<authors>!alpha, leocth</authors>
 			</Meta>
 		</Module>
 		<Module name="FerriteCore" id="ferritecore" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/459857/files/4441951/download</URL>
-			<Size>124924</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/459857/files/4810977/download</URL>
+			<Size>125197</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d01168431ea56b3fe3310005a01b7470</MD5>
+			<MD5>a19272e427f75fea59127de6610ea26b</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Reduces memory usage</description>
-				<version>5.2.0</version>
+				<version>6.0.1</version>
 				<authors>malte0811</authors>
 			</Meta>
 		</Module>
 		<Module name="Debugify" id="debugify" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/596224/files/4500733/download</URL>
-			<Size>333345</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/596224/files/4772930/download</URL>
+			<Size>362989</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>11536759d121486ce316e5a0eb01fbb7</MD5>
+			<MD5>fdcac728c311e451975f6da10c7decfd</MD5>
 		</Module>
 		<Module name="More Culling" id="moreculling" depends="" side="CLIENT">
-			<URL priority="1">https://cdn.modrinth.com/data/51shyZVL/versions/A9LKf67q/moreculling-1.19.4-0.17.0.jar</URL>
-			<Size>1235479</Size>
+			<URL priority="1">https://cdn.modrinth.com/data/51shyZVL/versions/Bu5pCvCn/moreculling-1.20.1-0.19.0.jar</URL>
+			<Size>334034</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>d6c51b0c2eced49fcecf3ae5d0127df9</MD5>
+			<MD5>2e6e5a4221b595f414948078851b43ce</MD5>
 			<Meta>
 				<license>LGPL-2.1-only</license>
 				<description>A mod that changes how multiple types of culling are handled in order to improve performance</description>
-				<version>1.19.4-0.17.0</version>
+				<version>1.20.1-0.19.0</version>
 				<authors>FX - PR0CESS</authors>
 			</Meta>
+			<Submodule name="Cloth Config v12" id="cloth-config" depends="" side="CLIENT">
+				<URL priority="0">https://www.curseforge.com/api/v1/mods/348521/files/4762985/download</URL>
+				<Size>1159520</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>9885a3fbcbc552ce142b127645f1eced</MD5>
+				<Meta>
+					<license>GNU LGPLv3</license>
+					<description>An API for config screens.</description>
+					<version>12.0.109</version>
+					<authors>shedaniel</authors>
+				</Meta>
+			</Submodule>
 		</Module>
 		<Module name="ServerCore" id="servercore" depends="" side="BOTH">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/550579/files/4437059/download</URL>
-			<Size>723258</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/550579/files/4763656/download</URL>
+			<Size>671944</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>3f14de4dd934fb172187a78d5e2e4f29</MD5>
+			<MD5>1eda031eb80276ee259f2d6394445cee</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>A fabric mod that aims to optimize the minecraft server.</description>
-				<version>1.3.5-1.19.4</version>
+				<version>1.3.8+1.20.2</version>
 				<authors>Wesley1808</authors>
 			</Meta>
 		</Module>
 		<Module name="Smoothchunk mod" id="smoothchunk" depends="" side="SERVER">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/582327/files/4453887/download</URL>
-			<Size>14209</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/582327/files/4748798/download</URL>
+			<Size>12260</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>8956fa86c78513a93f173eeca27d5fc2</MD5>
+			<MD5>705ff6bcbfc4ab1c25401924d7106920</MD5>
 			<Meta>
 				<license>ARR</license>
 				<description>Spreads chunk saves over time smoothly
 </description>
-				<version>1.19.4-3.0</version>
+				<version>1.20.1-3.2</version>
 				<authors>Someaddons</authors>
 			</Meta>
+			<Submodule name="cupboard" id="cupboard" depends="" side="SERVER">
+				<URL priority="0">https://www.curseforge.com/api/v1/mods/326652/files/4795344/download</URL>
+				<Size>20847</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>f36e97f4eea632c0e9e3edbf6ca53eab</MD5>
+				<Meta>
+					<license>ARR</license>
+					<description>!!!! Error !!!!</description>
+					<version>1.20.2-2.1</version>
+					<authors>Someaddon</authors>
+				</Meta>
+			</Submodule>
 		</Module>
 		<Module name="Particle Blocker" id="particle-blocker" depends="" side="CLIENT">
-			<URL priority="1">https://www.curseforge.com/api/v1/mods/593568/files/4219532/download</URL>
-			<Size>163373</Size>
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/593568/files/4655162/download</URL>
+			<Size>163496</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>0004bacc2b3dfd51db943595527b4fad</MD5>
+			<MD5>c80d4571e4e5fd7c35f707ce66af489d</MD5>
 			<Meta>
 				<license>LGPL-3</license>
 				<description></description>
-				<version>1.0</version>
+				<version>1.1</version>
 				<authors></authors>
 			</Meta>
 		</Module>
@@ -655,6 +668,45 @@ It allows Minecraft to run faster and look better with full support for shaders,
 				<description>Fabric language module for Kotlin.</description>
 				<version>1.9.4+kotlin.1.8.21</version>
 				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Carpet Mod" id="carpet" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/api/v1/mods/349239/files/4793845/download</URL>
+			<Size>1588606</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d8b7ce9c2ed8e74eb4be0167872045a4</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Carpet made out of fabric</description>
+				<version>1.4.121+v231011</version>
+				<authors>gnembon, ...</authors>
+			</Meta>
+		</Module>
+		<Module name="WorldEdit" id="worldedit" depends="" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/225608/files/4773938/download</URL>
+			<Size>5952031</Size>
+			<Required>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>740d6dac5136ddb4d58ce003a70bd941</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single- and multi-player.</description>
+				<version>7.2.16+6534-2066eb4</version>
+				<authors>EngineHub</authors>
+			</Meta>
+		</Module>
+		<Module name="AudioPlayer" id="audioplayer" depends="voicechat" side="BOTH">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/549719/files/4914827/download</URL>
+			<Size>606478</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13f251604cf56e098aedb1b3201c9ce9</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Audio Player</description>
+				<version>1.20.2-1.8.5</version>
+				<authors>Max Henkel</authors>
 			</Meta>
 		</Module>
 	</Server>
